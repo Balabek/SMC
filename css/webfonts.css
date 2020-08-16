@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('../fonts/SangBleuKingdom-Bold.eot');
+    src: url('../fonts/SangBleuKingdom-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SangBleuKingdom-Bold.woff2') format('woff2'),
+        url('../fonts/SangBleuKingdom-Bold.woff') format('woff'),
+        url('../fonts/SangBleuKingdom-Bold.ttf') format('truetype'),
+        url('../fonts/SangBleuKingdom-Bold.svg#SangBleuKingdom-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('../fonts/SangBleuKingdom-Light.eot');
+    src: url('../fonts/SangBleuKingdom-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SangBleuKingdom-Light.woff2') format('woff2'),
+        url('../fonts/SangBleuKingdom-Light.woff') format('woff'),
+        url('../fonts/SangBleuKingdom-Light.ttf') format('truetype'),
+        url('../fonts/SangBleuKingdom-Light.svg#SangBleuKingdom-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'SangBleu Kingdom';
+    src: url('../fonts/SangBleuKingdom-Regular.eot');
+    src: url('../fonts/SangBleuKingdom-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/SangBleuKingdom-Regular.woff2') format('woff2'),
+        url('../fonts/SangBleuKingdom-Regular.woff') format('woff'),
+        url('../fonts/SangBleuKingdom-Regular.ttf') format('truetype'),
+        url('../fonts/SangBleuKingdom-Regular.svg#SangBleuKingdom-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

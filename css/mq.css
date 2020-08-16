@@ -1,0 +1,272 @@
+/*
+███╗░░░███╗░██████╗░
+████╗░████║██╔═══██╗
+██╔████╔██║██║██╗██║
+██║╚██╔╝██║╚██████╔╝
+██║░╚═╝░██║░╚═██╔═╝░
+╚═╝░░░░░╚═╝░░░╚═╝░░░
+*/
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* >>>>>>>> I M P O R T A N T ! <<<<<<<<< */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* Special MQ for collapsing navigation bar at 991px viewport */
+@media (max-width: 991px) {
+    .navbar-header {float: none;}
+    .navbar-toggle {display: block;}
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-collapse.collapse {display: none!important;}
+    .navbar-nav {
+        float: none!important;
+        margin: 7.5px -15px;
+    }
+    .navbar-nav>li {float: none;}
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .navbar-collapse.collapse.in {display: block!important;}
+}
+
+/* >>>>> SM/XS <<<<< */
+@media screen and (max-width: 991px){
+    #smc_nav_collapse_1 {
+        position: absolute;
+        width: 100%;
+        margin-top: -25px;
+        background: rgba(255,255,255,0.91);
+        border-top: 2px solid rgba(22, 74, 132, 0.42);
+        padding-bottom: 24px;
+        padding-top: 6px;
+        z-index: 22;
+        right: 0;
+        left: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #smc_nav_collapse_1 {
+        margin-top: 25px;
+        left: 15px;
+    }
+
+    ul.dropdown-menu.smc_dropdown li {
+        height: 46px !important;
+        /*padding-top: 8px;*/
+        /*padding-bottom: 8px;*/
+    }
+
+    ul.dropdown-menu.smc_dropdown li a {color: #84BF41 !important;}
+    ul.dropdown-menu.smc_dropdown li a:hover {color: #ffffff !important;}
+
+    .navbar-nav .open .dropdown-menu > li > a {line-height: 3;}
+
+}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== NAVBAR + HEADER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    ul.smc_main_menu li {margin-right: 2px;}
+}
+
+@media screen and (max-width: 991px){
+    .header_logo {top: -75px; width: 25%;}
+
+    ul.smc_main_menu {
+        right: 0;
+        top: 0;
+        float: right !important;
+    }
+
+    a.smc_menu_link::after {bottom: 10px;}
+
+    ul.dropdown-menu.smc_dropdown {top: 27px;}
+
+    a#navbar_btn {line-height: 1.7; width: 100%; margin-top: 12px;}
+
+    .expanding-sf {margin-top: 12px;}
+
+    #searchform #s {
+        height: 50px;
+        top: -1px;
+        width: 97vw;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .header_logo {left: 15px; width: 171px; top: 0;}
+}
+
+@media screen and (max-width: 602px){
+    .h_banner h1 {font-size: 2.4rem;}
+
+    #searchform #s {width: 95vw;}
+}
+
+@media screen and (max-width: 525px){
+    .header_logo {position: relative; width: 130px; top: 10px;}
+}
+
+@media screen and (max-width: 485px){
+    .h_banner h1 {font-size: 2.1rem;}
+}
+
+@media screen and (max-width: 421px){
+    .h_banner h1 {font-size: 1.8rem;}
+}
+
+@media screen and (max-width: 360px){
+    .h_banner h1 {font-size: 1.55rem;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== PROGRAMS MIDMAIN ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .horizontal_key_titles_holder h5 {font-size: 0.9rem;}
+    .horizontal_key_titles_holder p {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 991px){
+    h2.programbox_title {font-size: 1.44rem;}
+    h3.programbox_subtitle {font-size: 1.1rem;}
+
+    .horizontal_key_titles_holder {top: -1px;}
+    .horizontal_key_titles_holder h5 {font-size: 0.82rem;}
+    .horizontal_key_titles_holder p {font-size: 0.5rem;}
+
+    img.accreditation_shield {top: 0;}
+    .shield_and_text small {font-size: 0.6rem;}
+
+    button.learnmore_btn {width: 150px;}
+}
+
+@media screen and (max-width: 767px){
+    span.redcirlce_one {right: -25%;}
+
+    .program_image_holder {
+        height: 230px;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .program_box_outerlayer {width: 96%; margin: 0 auto; margin-bottom: 90px;}
+    .program_box {padding-bottom: 30px;}
+    .k_factor_holder {display: flex; margin-bottom: 16px;}
+    .k_factor_holder:last-child {margin-bottom: 0;}
+
+    .horizontal_key_titles_holder {top: -5px;}
+    .horizontal_key_titles_holder h5 {font-size: 1rem;}
+    .horizontal_key_titles_holder p {font-size: 0.9rem;}
+    .key_factors_stripe {padding-top: 16px;}
+}
+
+@media screen and (max-width: 603px){
+    .program_box_outerlayer {margin-bottom: 60px;}
+}
+
+@media screen and (max-width: 505px){
+    .accreditation_holder {padding-top: 22px;}
+    .learnmore_btn_holder {float: none; top: 0; margin-top: 25px;}
+    button.learnmore_btn {width: 180px; font-size: 0.8rem;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== FOOTER ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .smc_footer {min-height: 420px;}
+    .footer_logo {left: -20px;}
+}
+
+@media screen and (max-width: 991px){
+    .footer_logo {height: 105px;}
+
+    .footer_links_holder {padding-left: 6px;}
+
+    ul.footer_socials li {margin-right: 16px;}
+    ul.footer_socials li a {font-size: 1rem;}
+
+    .footer_form_holder p {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 767px){
+    .footer_logo {height: 125px;}
+
+    .smc_footer_inner_content_holder {padding-top: 38px;}
+    .footer_logo_holder {text-align: center;}
+    .footer_logo {left: 0; text-align: center;}
+
+    .footer_socials_holder {text-align: center;}
+    ul.footer_socials {display: inline-block;}
+
+    ul.footer_socials li:last-child {margin-right: 0;}
+    ul.footer_socials li a {font-size: 1.3rem;}
+
+    .footer_logo_and_socials_holder {margin-bottom: 32px;}
+
+    .footer_links_holder {padding-left: 12%; margin-bottom: 22px;}
+
+    .footer_subscribe_holder {width: 83%; margin: 0 auto;}
+
+    hr.footer_separator {margin-top: 2%; width: 96%;}
+
+    .footer_bottommost_holder {bottom: 14px; text-align: center;}
+    small.footer_bottomtext {text-align: center;}
+
+    .footer_mini_list_holder {float: none; text-align: center; display: block; padding-top: 12px;}
+    ul.footer_mini_list {text-align: center; display: inline-flex; padding: 0;}
+}
+
+@media screen and (max-width: 418px){
+    .footer_links_holder {padding-left: 6%;}
+    .footer_subscribe_holder {width: 96%;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
