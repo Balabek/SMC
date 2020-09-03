@@ -38,7 +38,7 @@
         position: absolute;
         width: 100%;
         margin-top: -25px;
-        background: rgba(255,255,255,0.91);
+        background: #fafafa;
         border-top: 2px solid rgba(22, 74, 132, 0.42);
         padding-bottom: 24px;
         padding-top: 6px;
@@ -116,19 +116,171 @@
 
 @media screen and (max-width: 525px){
     .header_logo {position: relative; width: 130px; top: 10px;}
+    .h_banner {width: 96%;}
 }
 
-@media screen and (max-width: 485px){
-    .h_banner h1 {font-size: 2.1rem;}
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== HOMEPAGE ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .h_banner_homepage {width: 70%;}
+
+    .acc_logo {width: 135px;}
+
+    .smc_laptop {height: 400px; top: 100px; right: 161px;}
 }
 
-@media screen and (max-width: 421px){
-    .h_banner h1 {font-size: 1.8rem;}
+@media screen and (max-width: 991px){
+    .h_banner_homepage {width: 88%;}
+
+    .acc_logo {width: 108px;}
+
+    .featurebox_content_holder h3 {font-size: 1rem;}
+    article.featurebox_text p {font-size: 0.9rem;}
+
+    .distance_program_box_outermost {width: 100%;}
+    .distance_programbox {margin-bottom: 24px; height: 575px;}
+
+    .stat_circle {width: 135px; height: 135px; padding-top: 22px;}
+    .number_and_text_wrapper h1 {font-size: 2.3rem;}
+    .number_and_text_wrapper h5 {font-size: 0.9rem;}
+
+    .adv_icon {float: none;}
+
+    span.greycirlce_distance {right: -60%;}
+
+
 }
 
-@media screen and (max-width: 360px){
-    .h_banner h1 {font-size: 1.55rem;}
+@media screen and (max-width: 767px){
+    .h_banner_homepage {padding-left: 32px;}
+    .h_banner_homepage h1 {font-size: 3rem;}
+    .h_banner_homepage p {font-size: 1.2rem;}
+
+    .acc_logo {width: 99px;}
+    .homepage_logos_area {width: 96%; margin: 0 auto;}
+
+    .featurebox_content_holder h3 {font-size: 1.3rem;}
+    article.featurebox_text p {font-size: 1rem;}
+
+    .featurebox {margin-bottom: 24px;}
+
+    span.redcirlce_significant {left: -60%;}
+    .smc_devices {top: 0; right: 0; height: 422px;}
+
+    .significant_text_holder {top: 16px;}
+
+    .building_enterprise_text_holder {top: 0;}
+    .smc_laptop {top: 40px; right: 283px;}
+
+    .stat_circle {width: 200px; height: 200px; padding-top: 46px;}
+    .number_and_text_wrapper h1 {font-size: 3rem;}
+    .number_and_text_wrapper h5 {font-size: 1.1rem;}
+    .homepage_stat_outerbox {margin-bottom: 55px;}
+    .homepage_stat_outerbox:last-child {margin-bottom: 0;}
+
+    .adv_icon {float: left;}
+
+
 }
+
+@media screen and (max-width: 716px){
+    .acc_logo {width: 92px;}
+    span.greycirlce_distance {display: none;}
+}
+
+@media screen and (max-width: 665px){
+    .acc_logo {width: 80px;}
+}
+
+@media screen and (max-width: 578px){
+    .acc_logo {width: 75px;}
+    .distance_programbox {height: 625px;}
+
+    .smc_devices {height: 292px;}
+}
+
+@media screen and (max-width: 542px){
+    ul.accreditation_logos_list {display: table; margin: 0 auto;}
+    ul.accreditation_logos_list li {float: none;}
+    .acc_logo {width: 128px; height: 74px;}
+    .homepage_logos_area {padding-top: 24px;}
+}
+
+@media screen and (max-width: 505px){
+    .h_banner_homepage {width: 96%;}
+
+    .distance_programbox {height: 650px;}
+    article.distance_programbox_text p {font-size: 0.9rem;}
+
+    .smc_laptop {height: 310px; right: 330px;}
+
+    .adv_box p {font-size: 1rem;}
+}
+
+@media screen and (max-width: 462px){
+    .h_banner_homepage h1 {font-size: 2.4rem;}
+
+    .featurebox_content_holder h3 {font-size: 1.1rem;}
+    article.featurebox_text p {font-size: 0.9rem; -webkit-line-clamp: 3;}
+}
+
+@media screen and (max-width: 414px){
+    .adv_box p {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 378px){
+    .h_banner_homepage h1 {font-size: 2.2rem;}
+    .h_banner_homepage p {font-size: 1.1rem;}
+
+    .smc_laptop {height: 280px;}
+
+    .adv_icon {float: none;}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -155,7 +307,7 @@
     .horizontal_key_titles_holder p {font-size: 0.5rem;}
 
     img.accreditation_shield {top: 0;}
-    .shield_and_text small {font-size: 0.6rem;}
+    .shield_and_text small {font-size: 0.7rem;}
 
     button.learnmore_btn {width: 150px;}
 }
@@ -180,16 +332,30 @@
     .horizontal_key_titles_holder h5 {font-size: 1rem;}
     .horizontal_key_titles_holder p {font-size: 0.9rem;}
     .key_factors_stripe {padding-top: 16px;}
+
+    article.program_general_info {width: 93%; margin: 0 auto; margin-bottom: 32px;}
+
+    article.program_general_info p {font-size: 1rem;}
 }
 
 @media screen and (max-width: 603px){
     .program_box_outerlayer {margin-bottom: 60px;}
+
+    .program_boxes_holder {width: 95%; margin: 0 auto;}
 }
 
 @media screen and (max-width: 505px){
     .accreditation_holder {padding-top: 22px;}
     .learnmore_btn_holder {float: none; top: 0; margin-top: 25px;}
     button.learnmore_btn {width: 180px; font-size: 0.8rem;}
+
+    span.redcirlce_one {opacity: 0.1}
+    span.bluecircle_one {opacity: 0.1}
+}
+
+@media screen and (max-width: 380px){
+    img.accreditation_shield {top: -2px;}
+    .shield_and_text small {font-size: 0.6rem; font-weight: 500;}
 }
 
 
@@ -256,6 +422,262 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== PROGRAM DETAILS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .sidebar_keyfactor_titles small {font-size: 0.6rem; width: 140px;}
+    .fee_circle {width: 170px; height: 170px;}
+    .fee_content_holder {min-height: 200px;}
+}
+
+@media screen and (max-width: 991px){
+    .sidebar_content_holder {width: 94%;}
+    .sidebar_content_holder_2 {width: 94%;}
+    .sidebar_keyfactor_titles small {font-size: 0.8rem; width: 100%;}
+    .sidebar_keyfactor_titles.long_txt_vertical_align {top: 0;}
+}
+
+@media screen and (max-width: 767px){
+    .h_banner_for_details h1 {font-size: 2rem;}
+}
+
+@media screen and (max-width: 699px){
+    .fee_circle {width: 150px; height: 150px;}
+    .fee_content_holder {min-height: 170px;}
+    .fee_holder h1 {font-size: 2.2rem; margin-top: 20px;}
+}
+
+@media screen and (max-width: 630px){
+    .tuition_box {min-height: 425px; margin-bottom: 110px;}
+    .fee_circle_holder {width: 100%; text-align: center; min-height: 265px;}
+    .fee_content_holder {width: 100%; text-align: center;}
+    .fee_circle {display: inline-flex; width: 175px; height: 175px;}
+    .fee_content_holder {border-left: none; border-top: 1px solid rgba(151, 151, 151, 0.26); left: 0;}
+
+    span.bluecircle_two {right: -30%;}
+    span.redcirlce_two {left: -74%;}
+    span.greenhalfcircle.position_one {bottom: 1%; right: 41%;}
+}
+
+@media screen and (max-width: 410px){
+    .tuition_box {min-height: 465px;}
+    .topmost_stripe h3 {font-size: 1.2rem; margin-top: 17px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ALL PROGRAMS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .intro_paragraph {width: 85%; margin: 0 auto;}
+    .intro_paragraph p {font-size: 1rem;}
+    .introduction_paragraph_area {padding-top: 36px;}
+
+    .program_card {height: 345px;}
+    button.more_info_mini_btn {margin-bottom: 12px;}
+}
+
+@media screen and (max-width: 767px){
+    .program_cards_holder {padding-left: 20px; padding-right: 6px;}
+    .program_card {height: 290px;}
+    button.more_info_mini_btn {margin-bottom: initial}
+}
+
+@media screen and (max-width: 430px){
+    .intro_paragraph p {font-size: 0.9rem;}
+    .introduction_paragraph_area {padding-top: 28px;}
+}
+
+@media screen and (max-width: 390px){
+    button.more_info_mini_btn {margin-right: 2px; width: 40%;}
+    button.applynow_mini_btn {width: 40%;}
+}
+
+@media screen and (max-width: 340px){
+    button.more_info_mini_btn {width: 47%;}
+    button.applynow_mini_btn {width: 47%;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ENTERPRISE ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    span.arrow_one {height: 18px;}
+    span.arrow_two {height: 18px;}
+    h4.roadmap_title {font-size: 0.9rem;}
+}
+
+@media screen and (max-width: 991px){
+    .process_details {padding-right: 0; padding-left: 0;}
+    .process_details p {font-size: 0.88rem;}
+
+    .custom_trainings_text_section {top: 0;}
+
+    span.arrow_one {display: none;}
+    span.arrow_two {display: none;}
+}
+
+@media screen and (max-width: 800px){
+    .custom_trainings_abstract {right: 16px;}
+}
+
+@media screen and (max-width: 767px){
+    .process_circles_holder {padding-top: 35px;}
+    .process_details p {font-size: 1rem;}
+
+    .process_circle_outerbox {margin-bottom: 65px;}
+    .custom_trainings_abstract {right: 0; top: 25px; height: 200px;}
+
+    .roadmap_steps_holder {padding-top: 12px;}
+    .roadmap_shape {margin-bottom: 4px;}
+
+    .roadmap_step_outerbox {margin-bottom: 65px;}
+
+}
+
+@media screen and (max-width: 680px){
+    .custom_trainings_area {min-height: 655px;}
+}
+
+@media screen and (max-width: 625px){
+    .custom_trainings_abstract {position: relative;}
+    .custom_trainings_area {min-height: 700px;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ABOUT ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    span.about_red_circle_xl {bottom: -33%;}
+
+    .about_laptop {left: -77%;}
+}
+
+@media screen and (max-width: 991px){
+    .beginning_text_section {top: 8px;}
+
+    .about_laptop {top: 50px; width: 610px;}
+}
+
+@media screen and (max-width: 767px){
+    span.about_red_circle_xl {bottom: -25%;}
+    .about_stat_outerbox {margin-bottom: 42px;}
+
+    .schweiz {position: relative; margin-bottom: 32px;}
+    .page_title_left.about {text-align: center;}
+    hr.title_decoration_left.about {float: none;}
+    .beginning_text p {text-align: center;}
+
+    .about_laptop {left: 0; top: 0; margin: 0 auto; height: 340px; width: 100%;}
+    .admission_text p {text-align: center;}
+    .admission_apply_button_holder {text-align: center; margin-bottom: 42px;}
+}
+
+@media screen and (max-width: 570px){
+    .admission_text_holder {top: 0;}
+}
+
+@media screen and (max-width: 525px){
+    span.about_red_circle_xl {bottom: -22%;}
+
+    .application_for_admission {padding-top: 0; padding-bottom: 25px;}
+}
+
+@media screen and (max-width: 420px) {
+    .beginning_area {padding-bottom: 16px;}
+}
+
+@media screen and (max-width: 350px) {
+    .beginning_area {padding-bottom: 0;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ABOUT ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .phone_and_email_box_holder {padding-top: 50%;}
+}
+
+@media screen and (max-width: 991px){
+    .phone_and_email_box_holder {padding-top: 70%;}
+}
+
+@media screen and (max-width: 767px){
+    .map_outerbox {margin-bottom: 48px;}
+    .phone_and_email_box_holder {padding-top: 5%;}
+
+    .two_maps_holder {width: 96%; margin: 0 auto;}
+    .phone_and_email_box_holder {width: 96%; margin:  0 auto;}
+    .contact_form_holder {width: 96%; margin: 0 auto;}
+
+    span.red_circle_contact {right: 50%;}
+    span.cyan_circle_contact {top: 7%; right: -40%;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== APPLICATION ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .journey_text_holder {padding-top: 18px;}
+    .journey_image {width: 345px; height: 345px;}
+    .journey_area {min-height: 550px;}
+}
+
+@media screen and (max-width: 991px){
+    .journey_text_holder {padding-top: 8px;}
+    .journey_image {width: 275px; height: 275px;}
+    .journey_area {min-height: 550px;}
+}
+
+@media screen and (max-width: 767px){
+    .journey_image_holder {top: 0;}
+    .journey_image {margin: 0 auto;}
+
+    h2.page_title_left.application {text-align: center;}
+    hr.title_decoration_left.application {float: none;}
+    .journey_text p {text-align: center;}
+    span.application_cyan_circle {opacity: 0.1; top: 80%;}
+}
 
 
 
@@ -263,10 +685,16 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== SEARCH RESULTS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
 
+/* >>>>> SM/XS <<<<< */
 
+@media screen and (max-width: 991px){
+    .mini_header {position: relative; top: -25px;}
+}
 
-
-
-
-
+@media screen and (max-width: 767px){
+    .search_results_area {width: 94%; margin: 0 auto;}
+}

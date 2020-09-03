@@ -19,6 +19,10 @@ html {
     height: 100%;
 }
 
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -51,6 +55,13 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 input:disabled, input[disabled] {
     opacity: 0.5 !important;
 }
+
+.colorgrey {color: #4A4D4D;}
+.colorred {color: #D8232A;}
+.colorblue {color: #164A84;}
+.colorcyan {color: #00A3DA;}
+.colorgreen {color: #84BF41;}
+
 
 
 
@@ -410,7 +421,750 @@ a#navbar_btn:hover, a#navbar_btn:focus {
 
 
 /* =========================== */
-    /* ==== Header ==== */
+/* ==== Homepage ==== */
+/* =========================== */
+
+.smc_header.home_header {
+    position: relative;
+    min-height: 700px;
+    height: auto;
+    background-size: cover;
+}
+
+.home_bgd::after {
+    content: "";
+    background: url('../img/home_bgd_1.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.h_banner_homepage {
+    display: block;
+    width: 65%;
+    text-align: left;
+    padding-top: 20px;
+    position: relative;
+    z-index: 3;
+    top: 130px;
+}
+
+.h_banner_homepage h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: 700;
+    text-align: left;
+    color: #ffffff;
+    font-size: 3.6rem;
+    line-height: 1.3;
+}
+
+hr.home_header_separator {
+    display: block;
+    clear: both;
+    border: none;
+    height: 1px;
+    position: relative;
+
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.01) 100%, rgba(255,255,255,1) 150%);
+}
+
+.h_banner_homepage p {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: left;
+    color: #fff;
+}
+
+.home_cta_holder {
+    padding-top: 36px;
+    text-align: left;
+}
+
+button.main_cta {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff !important;
+    background: #84BF41;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 235px;
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.main_cta:hover {
+    color: #fff !important;
+    background: #73a537;
+}
+
+.homepage_logos_area {
+    min-height: 175px;
+    height: auto;
+    background: #fff;
+    padding-top: 42px;
+}
+
+ul.accreditation_logos_list {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+ul.accreditation_logos_list li {
+    list-style-type: none;
+    float: left;
+    margin-right: 7%;
+}
+
+ul.accreditation_logos_list li:last-child {
+    margin-right: 0;
+}
+
+.acc_logo {
+    display: inline-block;
+    height: 99px;
+    width: 160px;
+    /*filter: grayscale(100%) brightness(99%);*/
+}
+
+.featured_area {
+    position: relative;
+    min-height: 700px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.featured_boxes_holder {
+    padding-top: 32px;
+}
+
+.featurebox {
+    position: relative;
+    width: 100%;
+    min-height: 505px;
+    height: auto;
+    background: #ffffff;
+    border-radius: 20px;
+
+
+    -webkit-box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+}
+
+.featured_top_image_holder {
+    height: 220px;
+    width: 100%;
+}
+
+.featured_image {
+    height: inherit;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.featurebox_content_holder {
+    padding-left: 16px;
+}
+
+.featurebox_content_holder h3 {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.38rem;
+    font-weight: bold;
+    text-align: left;
+    color: #666666;
+    line-height: 1.4;
+    margin-bottom: 22px;
+}
+
+article.featurebox_text {
+    padding-left: 16px;
+    padding-right: 16px;
+    min-height: 100px;
+    height: auto;
+    text-overflow: ellipsis;
+}
+
+article.featurebox_text p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.5;
+
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 8;
+    -webkit-box-orient: vertical;
+}
+
+.featured_button_holder {
+    position: absolute;
+    bottom: 20px;
+    left: 16px;
+}
+
+
+button.featured_btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666666 !important;
+    background: rgba(102, 102, 102, 0.01);
+    border: 1px solid #666666;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 180px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.featured_btn:hover {
+    color: #73a537 !important;
+    border: 1px solid #73a537;
+}
+
+span.redcirlce_featured {
+    display: inline;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 90px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 14%;
+    left: -20%;
+    opacity: 0.1;
+}
+
+span.greycirlce_distance {
+    display: inline;
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 130px;
+    border-color: #666666;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 14%;
+    right: -36%;
+    opacity: 0.1;
+}
+
+.distance_learning_area {
+    position: relative;
+    min-height: 1150px;
+    height: auto;
+    background: #f9f9f9;
+    padding-top: 75px;
+}
+
+.distance_program_boxes_holder {
+    padding-top: 60px;
+}
+
+.distance_programbox {
+    position: relative;
+    width: 100%;
+    height: 640px;
+    border-radius: 20px;
+
+    background: url('../img/distance_prgrm_bgd.png') center center no-repeat;
+    background-size: cover;
+
+    -webkit-box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+    -moz-box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 2px 3000px 0 rgba(0,0,0,0.1);
+}
+
+.d_shape_holder {
+    padding-top: 36px;
+    display: flex;
+    text-align: center;
+    margin-bottom: 22px;
+}
+
+.d_shape {
+    width: 130px;
+    height: 120px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.d_shape.shape_1 {background: url('../img/distance_p_shape_1.svg') center center no-repeat; background-size: contain;}
+.d_shape.shape_2 {background: url('../img/distance_p_shape_2.svg') center center no-repeat; background-size: contain;}
+.d_shape.shape_3 {background: url('../img/distance_p_shape_3.svg') center center no-repeat; background-size: contain;}
+
+
+.distance_programbox_title_holder {
+    padding-top: 2px;
+}
+
+.distance_programbox_title_holder h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 1.33rem;
+    color: #666666;
+    text-align: center;
+}
+
+article.distance_programbox_text {
+    padding-top: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+    min-height: 180px;
+    height: auto;
+    text-overflow: ellipsis;
+}
+
+article.distance_programbox_text p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: center;
+    line-height: 1.5;
+
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 20;
+    -webkit-box-orient: vertical;
+}
+
+.distance_programbox_button_holder {
+    position: absolute;
+    bottom: 28px;
+    left: 0;
+    right: 0;
+}
+
+button.distance_prgrm_btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666666 !important;
+    background: rgba(102, 102, 102, 0.01);
+    border: 1px solid #666666;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 180px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.distance_prgrm_btn:hover {
+    color: #73a537 !important;
+    border: 1px solid #73a537;
+}
+
+.fromgreat_to_significant_area {
+    position: relative;
+    min-height: 740px;
+    height: auto;
+    background: #FEFCFB;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+
+span.redcirlce_significant {
+    display: inline;
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 130px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 12%;
+    left: -17%;
+    opacity: 0.1;
+}
+
+.smc_devices {
+    display: block;
+    width: 100%;
+    height: 522px;
+    position: relative;
+    top: 36px;
+    right: 35px;
+    background: url('../img/smc_devices.png') center center no-repeat;
+    background-size: contain;
+
+    -webkit-filter: drop-shadow(5px 5px 5px #999999);
+    filter: drop-shadow(5px 5px 5px #999999);
+}
+
+.significant_text_holder {
+    position: relative;
+    top: 85px;
+}
+
+article.general_paragraph {
+    clear: both;
+    padding-top: 12px;
+    margin-bottom: 38px;
+}
+
+article.general_paragraph p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.building_enterprise_area {
+    min-height: 620px;
+    padding-top: 55px;
+    padding-bottom: 25px;
+    background: #f8f8f8;
+}
+
+.building_enterprise_text_holder {
+    position: relative;
+    top: 75px;
+}
+
+.smc_laptop {
+    display: block;
+    width: 900px;
+    height: 522px;
+    position: relative;
+    top: 6px;
+    right: 35px;
+    background: url('../img/smc_laptop.png') center center no-repeat;
+    background-size: contain;
+    mix-blend-mode: multiply;
+}
+
+.global_and_nearby_area {
+    position: relative;
+    min-height: 835px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 55px;
+
+    background: url('../img/global_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+.whitetxt {color: #ffffff !important;}
+
+.general_centered_paragraph_white {
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+
+.general_centered_paragraph_white p {
+    font-size: 1rem;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.homepage_stats_holder {
+    padding-top: 75px;
+}
+
+.homepage_stat_outerbox {
+    position: relative;
+    text-align: center;
+}
+
+.stat_circle {
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    /*display: flex;*/
+    /*justify-items: center;*/
+    /*align-items: center;*/
+    margin-bottom: 22px;
+    padding-top: 40px;
+}
+
+.stat_circle::before {
+    content: "";
+    mix-blend-mode: multiply;
+}
+
+.circle_and_numbers_holder {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.stat_circle.blue {background-color: rgba(11, 36, 64, 0.45);}
+.stat_circle.grey {background-color: rgba(46, 48, 48, 0.45);}
+.stat_circle.red {background-color: rgba(90, 14, 17, 0.45);}
+.stat_circle.cyan {background-color: rgba(0, 78, 104, 0.45);}
+
+
+.number_and_text_wrapper {
+    text-align: center;
+}
+
+.number_and_text_wrapper h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 4rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.number_and_text_wrapper h5 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -4px;
+}
+
+.stat_text_holder {
+    clear: both;
+    text-align: center;
+}
+
+.stat_text_holder p {
+    clear: both;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+    text-align: center;
+}
+
+hr.artificial_gap {
+    border: none;
+    clear: both;
+    margin-bottom: 32px;
+}
+
+.advantages_area {
+    position: relative;
+    min-height: 620px;
+    height: auto;
+    background: #FEFCFB;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+span.advantaes_red_circle {
+    display: inline;
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 40px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    opacity: 0.1;
+}
+
+.advantages_holder {
+    padding-top: 65px;
+}
+
+.adv_box {
+    min-height: 55px;
+    height: auto;
+    margin-bottom: 48px;
+}
+
+.adv_box p {
+    font-size: 1.1rem;
+    text-align: left;
+    color: #666666;
+}
+
+.adv_icon {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    float: left;
+    margin-right: 2px;
+}
+
+.faq_area {
+    position: relative;
+    min-height: 1100px;
+    height: auto;
+    background: #f1f1f1;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    overflow: hidden;
+}
+
+span.faq_circle {
+    background: url('../img/faq_circle.svg') center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1170px;
+    position: absolute;
+    margin: 0 auto;
+    top: -64%;
+    left: 0;
+    right: 0;
+    opacity: 1;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.faq_holder {
+    position: relative;
+    padding-top: 35px;
+    display: block;
+    width: 88%;
+    margin: 0 auto;
+}
+
+article.post_faq_text {
+    padding-top: 32px;
+}
+
+article.post_faq_text p {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: center;
+}
+
+.general_centered_button_holder_faq {
+    position: relative;
+    z-index: 4;
+    padding-top: 28px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =========================== */
+/* ==== Degree Programs (INNER) ==== */
 /* =========================== */
 
 .smc_header.inner_header {
@@ -449,7 +1203,6 @@ a#navbar_btn:hover, a#navbar_btn:focus {
     z-index: 2;
 }
 
-
 .h_banner {
     display: block;
     justify-content: center;
@@ -485,7 +1238,22 @@ small.mini_info i {
     margin-right: 4px;
 }
 
+article.program_general_info {
+    padding-top: 2px;
+    margin-bottom: 45px;
+    margin-top: 24px;
+}
 
+article.program_general_info p {
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+}
+
+span.boldify {
+    font-weight: 700;
+}
 
 
 
@@ -573,7 +1341,7 @@ span.cyancircle_one {
 }
 
 .program_boxes_holder {
-    padding-top: 125px;
+    padding-top: 85px;
 }
 
 .program_box_outerlayer {
@@ -616,10 +1384,10 @@ img.program_image {
     clear: both;
 }
 
-
 .program_content_holder {
-    padding: 4px 24px 4px 24px;
-
+    /*padding: 4px 24px 4px 24px;*/
+    padding-left: 22px;
+    padding-right: 22px;
 }
 
 h2.programbox_title {
@@ -716,7 +1484,7 @@ article.program_brief_description p {
 }
 
 .accreditation_holder {
-    padding-top: 38px;
+    padding-top: 26px;
 }
 
 img.accreditation_shield {
@@ -742,7 +1510,6 @@ img.accreditation_shield {
     top: -38px;
 }
 
-
 button.learnmore_btn {
     font-size: 0.9rem;
     font-weight: 600;
@@ -766,12 +1533,24 @@ button.learnmore_btn:hover, button.learnmore_btn:focus {
     background: #73a537;
 }
 
+article.program_brief_description a {
+    color: #00A3DA;
+    text-decoration: none;
 
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
 
+article.program_brief_description a:hover {
+    color: #0085b1;
+}
 
 
 /* =========================== */
-/* ==== Degrees Main Area==== */
+     /* ==== Footer ==== */
 /* =========================== */
 
 .smc_footer {
@@ -984,6 +1763,2029 @@ ul.footer_mini_list li a {
 ul.footer_mini_list li a:hover, ul.footer_mini_list li a:focus {
     color: #cecece;
 }
+
+
+
+
+
+
+/* =========================== */
+ /* ==== Program Details ==== */
+/* =========================== */
+
+.smc_header.program_details_header {
+    position: relative;
+    min-height: 400px;
+    height: auto;
+    background: url('../img/prog_details_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+.h_banner_for_details {
+    display: block;
+    justify-content: center;
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 35px;
+    position: relative;
+    z-index: 3;
+    top: 100px;
+}
+
+.h_banner_for_details h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff;
+    text-align: center;
+}
+
+.program_details_main_area {
+    position: relative;
+    min-height: 800px;
+    height: auto;
+    background: #f9f9f9;
+    padding-top: 90px;
+    padding-bottom: 75px;
+}
+
+.sidebar_box {
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 36px;
+
+    -webkit-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+}
+
+.topmost_stripe {
+    height: 50px;
+    width: 100%;
+    background: #164A84;
+    display: inline-flex;
+    justify-content: left;
+    padding-left: 22px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.topmost_stripe h3 {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    margin-top: 14px;
+}
+
+.sidebar_content_holder {
+    display: block;
+    width: 86%;
+    margin: 0 auto;
+}
+
+.sidebar_keyfact {
+    display: block;
+    height: 70px;
+    padding-top: 16px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.sidebar_circle_and_icon {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    border-radius: 100%;
+    height: 38px;
+    width: 38px;
+    margin-right: 8px;
+    padding-top: 8px;
+}
+
+.sidebar_keyfactor_titles {
+    display: block;
+    position: relative;
+    top: 2px;
+}
+
+.sidebar_keyfactor_titles.long_txt_vertical_align {top: -3px;}
+
+.sidebar_keyfactor_titles h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+h5.joint_mfq_title_solo {
+    margin-top: 12px;
+}
+
+.sidebar_keyfactor_titles small {
+    font-size: 0.7rem;
+    font-weight: 200;
+    color: #666666;
+    text-align: left;
+    position: absolute;
+    width: 190px;
+}
+
+.sidebar_keyfactor_titles small a {
+    color: #666666;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.sidebar_keyfactor_titles small a:hover {
+    color: #999;
+}
+
+.sidebar_apply_btn_holder {
+    padding-top: 24px;
+    text-align: center;
+}
+
+button.sidebar_apply_btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff !important;
+    background: #84BF41;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 50px;
+    width: 180px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.sidebar_apply_btn:hover, button.sidebar_apply_btn:focus {
+    color: #fff !important;
+    background: #73a537;
+}
+
+.other_programs_list_holder {
+    padding-top: 0;
+}
+
+.other_programs_list_holder h5 {
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    color: #666666;
+    margin-bottom: 12px;
+}
+
+ul.other_programs_list {
+    padding-left: 8px;
+}
+
+ul.other_programs_list li {
+    list-style-type: none;
+    margin-bottom: 12px;
+    text-indent: -8px;
+}
+
+ul.other_programs_list li:before {
+    content: "- ";
+    color: #00A3DA;
+}
+
+ul.other_programs_list li a {
+    font-size: 0.88rem;
+    font-weight: 300;
+    text-align: left;
+    color: #666666;
+    text-decoration: none;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+ul.other_programs_list li a:hover {
+    color: #999999;
+}
+
+ul.other_programs_list li a.active {
+    color: #164A84;
+    font-weight: 600;
+    pointer-events: none;
+    cursor: none;
+}
+
+.sidebar_content_holder_2 {
+    display: block;
+    width: 86%;
+    margin: 0 auto;
+    padding-top: 14px;
+}
+
+
+.details_content_box {
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    border-radius: 20px;
+    background: #ffffff;
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 36px;
+
+    -webkit-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+}
+
+article.program_details {
+    padding: 24px 28px 14px 28px;
+}
+
+article.program_details p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+    margin-bottom: 24px;
+}
+
+ul.generic_custom_smc_list {
+    padding-left: 0;
+}
+
+ul.generic_custom_smc_list li {
+    list-style-type: none;
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    text-indent: -23px;
+    padding-left: 23px;
+    margin-bottom: 32px;
+}
+
+ul.generic_custom_smc_list li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: #00A3DA;
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+ul.generic_custom_smc_list.green {
+    padding-top: 32px;
+}
+
+ul.generic_custom_smc_list.green li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: #84BF41;
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+.tuition_inner_holder {
+    padding: 24px 24px 36px 24px;
+}
+
+.tuition_box {
+    min-height: 200px;
+    height: auto;
+    margin-bottom: 24px;
+    clear: both;
+}
+
+.fee_circle_holder {
+    min-height: 300px;
+    height: auto;
+    padding-left: 0;
+}
+
+.fee_circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background: #00A3DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fee_circle h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: 700;
+    font-size: 10rem;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    opacity: 0.2;
+}
+
+.fee_titles {
+    position: absolute;
+}
+
+.fee_titles h3 {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.fee_titles h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+.fee_holder {
+    text-align: center;
+    align-items: center;
+}
+
+.fee_holder h1 {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #00A3DA;
+    text-align: center;
+    margin-top: 4px;
+}
+
+.fee_content_holder {
+    border-left: 1px solid rgba(151, 151, 151, 0.26);
+    min-height: 250px;
+    height: auto;
+    position: relative;
+    left: 22px;
+}
+
+.fee_content {
+    padding-top: 18px;
+}
+
+.fee_content p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.fee_content p > a {
+    color: #00A3DA;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.fee_content p > a:hover {color: #0085b1;}
+
+.outline_sequence_holder {
+    position: relative;
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+    padding-top: 32px;
+}
+
+h4.outline_subtitle {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #164A84;
+    text-align: left;
+    padding-left: 0;
+    margin-bottom: 24px;
+    margin-top: 38px;
+}
+
+h4.outline_subtitle.initial {margin-top: 0;}
+
+.well.sequence_stripe {
+    padding: 5px;
+}
+
+.well.sequence_stripe {
+    min-height: 50px;
+    height: auto;
+    background: #f9f9f9;
+    border: 1px solid #dbdbdb;
+    box-shadow: none !important;
+}
+
+h4.step_title {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.22rem;
+    color: #666;
+    text-align: left;
+    padding-left: 12px;
+}
+
+a.toggle_stripe {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+span.step_toggler {
+    position: relative;
+    right: 5px;
+    top: 11px;
+}
+
+span.step_toggler i {
+    font-size: 1.4rem;
+    color: #84BF41;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+span.step_toggler i.fa-caret-up {
+    font-size: 1.4rem;
+    color: #00A3DA;
+}
+
+
+article.step_description {
+    padding: 22px 22px 20px 12px;
+}
+
+article.step_description p {
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: left;
+    color: #666666;
+    line-height: 1.8;
+}
+
+span.greenhalfcircle {
+    position: absolute;
+    width: 100%;
+    height: 264px;
+    background: url('../img/greenhalfcircle.svg') center center no-repeat;
+    background-size: contain;
+}
+
+span.greenhalfcircle.position_one {
+    bottom: 2%;
+    right: 22%;
+}
+
+span.redcirlce_two {
+    display: inline;
+    width: 770px;
+    height: 770px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 150px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 19%;
+    left: -28%;
+    opacity: 0.1;
+}
+
+span.bluecircle_two {
+    display: inline;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 70px;
+    border-color: #164A84;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8%;
+    right: -6%;
+    opacity: 0.2;
+}
+
+
+
+
+
+/* =========================== */
+/* ==== JOINT PROGRAMS (INNER) ==== */
+/* =========================== */
+
+.joint_programs_bgd::after {
+    content: "";
+    background: url('../img/joint_bgd_1.png') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.masters_main_area {
+    position: relative;
+    min-height: 800px;
+    height: auto;
+    background: #f9f9f9;
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+
+h2.page_title {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #164A84;
+    text-align: center;
+}
+
+hr.title_decoration {
+    width: 45px;
+    height: 4px;
+    border: none;
+    background-color: #84BF41;
+}
+
+.phd_main_area {
+    position: relative;
+    min-height: 800px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+
+span.redcirlce_three {
+    display: inline;
+    width: 770px;
+    height: 770px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 150px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 19%;
+    left: -28%;
+    opacity: 0.1;
+}
+
+span.bluecircle_three {
+    display: inline;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 29px;
+    border-color: #164A84;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8%;
+    left: -5%;
+    opacity: 0.2;
+}
+
+
+span.greencircle_three {
+    display: inline;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 29px;
+    border-color: #84BF41;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 8%;
+    left: -5%;
+    opacity: 0.2;
+}
+
+
+span.cyancircle_three {
+    display: inline;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 29px;
+    border-color: #00A3DA;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 58%;
+    right: 1%;
+    opacity: 0.2;
+}
+
+
+
+
+
+/* =========================== */
+/* ==== ALL PROGRAMS (INNER) ==== */
+/* =========================== */
+
+.all_programs_bgd::after {
+    content: "";
+    background: url('../img/gateway_bgd_1.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.introduction_paragraph_area {
+    background: #ffffff;
+    min-height: 140px;
+    height: auto;
+    padding-top: 45px;
+}
+
+.centrify {
+    display: inline-block;
+    text-align: center;
+}
+
+.intro_paragraph p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #666666;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.all_programs_main_area {
+    position: relative;
+    min-height: 800px;
+    height: auto;
+    background: #f9f9f9;
+    padding-top: 42px;
+    padding-bottom: 75px;
+}
+
+h2.page_title_left {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 2.8rem;
+    font-weight: bold;
+    color: #164A84;
+    text-align: left;
+}
+
+hr.title_decoration_left {
+    width: 45px;
+    height: 4px;
+    border: none;
+    background-color: #84BF41;
+    float: left;
+}
+
+article.program_brief_info {
+    min-height: 80px;
+    height: auto;
+    margin-bottom: 18px;
+    clear: both;
+    padding-top: 12px;
+}
+
+article.program_brief_info p {
+    font-size: 1rem;
+    text-align: left;
+    color: #666666;
+}
+
+.program_cards_holder {
+    position: relative;
+    min-height: 100%;
+    height: auto;
+    margin-bottom: 115px;
+    clear: both;
+    float: left;
+}
+
+.program_card_outerbox {
+    padding-left: 0;
+}
+
+.program_card {
+    position: relative;
+    width: 100%;
+    height: 290px;
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 12px 18px 12px 24px;
+    margin-bottom: 18px;
+
+    -webkit-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 354px 0 rgba(0,0,0,0.08);
+}
+
+.program_title_holder {
+    min-height: 55px;
+    height: auto;
+    text-overflow: ellipsis;
+}
+
+.program_title_holder h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.5;
+    color: #164A84;
+    text-align: left;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+}
+
+.program_card_list_holder {
+    padding-left: 0;
+}
+
+ul.program_card_list {
+    padding-left: 0;
+}
+
+ul.program_card_list li {
+    list-style-type: none;
+    margin-bottom: -5px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: left;
+}
+
+ul.program_card_list li h5 {
+    display: inline-block;
+    font-weight: 400;
+}
+
+.two_mini_buttons_holder {
+    position: relative;
+    bottom: -10px;
+    padding-top: 12px;
+}
+
+
+button.more_info_mini_btn {
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: #00A3DA;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 42px;
+    width: 145px;
+    margin-right: 8px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.more_info_mini_btn:hover, button.more_info_mini_btn:focus {
+    color: #fff !important;
+    background: #007ba5;
+}
+
+button.applynow_mini_btn {
+    font-size: 0.74rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: #84BF41;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 42px;
+    width: 145px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.applynow_mini_btn:hover, button.applynow_mini_btn:focus {
+    color: #fff !important;
+    background: #70a53a;
+}
+
+
+
+
+
+
+/* =========================== */
+/* ==== ENTERPRISE (INNER) ==== */
+/* =========================== */
+
+.enterprise_bgd::after {
+    content: "";
+    background: url('../img/enterprise_bgd_1.png') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.building_organizations_area {
+    background: #fefefe;
+    min-height: 600px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.general_centered_paragraph {
+    width: 88%;
+    margin: 0 auto;
+    padding-top: 36px;
+}
+
+.general_centered_paragraph p {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.process_circles_holder {
+    padding-top: 75px;
+}
+
+.process_circle_outerbox {
+    text-align: center;
+}
+
+.process_circle_and_icon_wrapper {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.process_circle.blue {background: rgba(22, 74, 132, 0.08);}
+.process_circle.green {background: rgba(132, 191, 65, 0.09);}
+.process_circle.red {background: rgba(216, 35, 42, 0.08);}
+.process_circle.cyan {background: rgba(0, 163, 218, 0.08);}
+
+.process_circle {
+    border-radius: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 22px;
+}
+
+.process_circle.blue {
+    background: rgba(22, 74, 132, 0.08);
+}
+
+img.process_icon {
+    width: 100%;
+    height: 55px;
+    align-content: center;
+}
+
+h4.process_title {
+    font-size: 1.17rem;
+    font-weight: 700;
+    color: #666666;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.process_details {
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+.process_details p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.custom_trainings_area {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 600px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.custom_trainings_text_section {
+    position: relative;
+    top: 45px;
+}
+
+.custom_trainings_text {
+    padding-top: 32px;
+    clear: both;
+}
+
+.custom_trainings_text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    line-height: 1.7;
+}
+
+.custom_trainings_abstract_image_holder {
+    position: relative;
+}
+
+.custom_trainings_abstract {
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top: -30px;
+}
+
+.roadmap_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 600px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 95px;
+}
+
+.roadmap_steps_holder {
+    padding-top: 75px;
+}
+
+.roadmap_step_outerbox {
+    position: relative;
+}
+
+h4.roadmap_title {
+    font-size: 1.17rem;
+    font-weight: 700;
+    color: #666666;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.shape_and_number_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.roadmap_shape {
+    text-align: center;
+    width: 200px;
+    height: 222px;
+    margin-bottom: 22px;
+}
+
+.roadmap_shape.halfcircle {
+    background: url('../img/halfcircle.png') center center no-repeat;
+    background-size: contain;
+}
+.semihalfcircle {
+    background: url('../img/semicircle.png') center center no-repeat;
+    background-size: contain;
+}
+.fullcircle {
+    background: url('../img/fullcircle.png') center center no-repeat;
+    background-size: contain;
+}
+
+h3.roadmap_number.cyan {color: #00A3DA;}
+h3.roadmap_number.green {color: #84BF41;}
+h3.roadmap_number.red {color: #D8232A;}
+
+h3.roadmap_number {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 2.1rem;
+    text-align: left !important;
+    font-weight: bold;
+    position: absolute;
+    top: 42%;
+}
+
+span.arrow_one {
+    display: inline-block;
+    height: 22px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: url('../img/arrow_1.svg') center center no-repeat;
+    background-size: contain;
+    top: 33%;
+    left: 50%;
+}
+
+span.arrow_two {
+    display: inline-block;
+    height: 22px;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    background: url('../img/arrow_2.svg') center center no-repeat;
+    background-size: contain;
+    top: 33%;
+    left: 50%;
+}
+
+
+
+
+
+
+/* =========================== */
+  /* ==== ABOUT (INNER) ==== */
+/* =========================== */
+
+.about_bgd::after {
+    content: "";
+    background: url('../img/about_bgd_1.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.worldclass_institution_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 800px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+hr.invisible_margin {
+    visibility: hidden;
+    margin-bottom: 75px;
+}
+
+.about_stats_holder {
+    padding-top: 45px;
+    min-height: 235px;
+    height: auto;
+    margin-bottom: 18px;
+}
+
+.about_stat_outerbox {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.about_statbox {
+    text-align: center;
+}
+
+h2.stat_number {
+    font-family: "SangBleu Kingdom",serif;
+    font-weight: bold;
+    font-size: 5.1rem;
+    text-align: center;
+}
+
+hr.stat_separator {
+    width: 100%;
+    height: 1px;
+    border: none;
+    text-align: center;
+
+    background: rgb(74,77,77);
+    background: linear-gradient(90deg, rgba(74,77,77,0) 0%, rgba(74,77,77,1) 50%, rgba(74,77,77,0) 100%);
+}
+
+h4.stat_info {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #999999;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.general_centered_button_holder {
+    position: relative;
+    z-index: 4;
+    padding-top: 55px;
+}
+
+button.apply_now_btn {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #ffffff !important;
+    background: #84BF41;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 60px;
+    width: 235px;
+    /*line-height: 1.3;*/
+
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+button.apply_now_btn:hover, button.apply_now_btn:focus {
+    color: #fff !important;
+    background: #73a537;
+}
+
+span.about_red_circle_xl {
+    background: url('../img/redcircle_xl.svg') center center no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 1170px;
+    position: absolute;
+    margin: 0 auto;
+    bottom: -40%;
+    left: 0;
+    right: 0;
+    opacity: 0.07;
+    z-index: 0;
+}
+
+.beginning_area {
+    position: relative;
+    background: #fafafa;
+    min-height: 650px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 75px;
+}
+
+.beginning_text_section {
+    position: relative;
+    top: 45px;
+}
+
+.beginning_text {
+    padding-top: 32px;
+    clear: both;
+}
+
+.beginning_text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #666666;
+    text-align: left;
+    line-height: 1.7;
+}
+
+span.boldify  {
+    font-weight: 700;
+}
+
+.beginning_schweiz_image_holder {
+    position: relative;
+}
+
+.schweiz {
+    height: 440px;
+    width: 100%;
+    position: absolute;
+    top: 25px;
+}
+
+.structure_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 800px;
+    height: auto;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.structure_boxes_holder {
+    padding-top: 85px;
+}
+
+.structurebox {
+    position: relative;
+    width: 100%;
+    height: 655px;
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+
+    -webkit-box-shadow: 0 2px 194px 0 rgba(0,0,0,0.08);
+    -moz-box-shadow: 0 2px 194px 0 rgba(0,0,0,0.08);
+    box-shadow: 0 2px 194px 0 rgba(0,0,0,0.08);
+}
+
+.structure_topmost_image {
+    height: 175px;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.structure_box_inner_space {
+    padding: 12px 16px 24px 16px;
+}
+
+.structure_title_holder {
+    height: 55px;
+    text-overflow: ellipsis;
+    margin-bottom: 22px;
+}
+
+.structure_title_holder h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    line-height: 1.4;
+    color: #666666;
+    text-align: left;
+}
+
+.structure_box_details p {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.structure_box_accreditation_holder {
+    padding-top: 28px;
+}
+
+.structure_box_accreditation_holder h5 {
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: left;
+    color: #999999;
+    margin-top: 1px;
+    margin-bottom: 8px;
+}
+
+ul.accreditation_list {
+    padding-left: 0;
+}
+
+ul.accreditation_list li {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #999999;
+    text-align: left;
+    margin-bottom: 4px;
+    list-style-type: none;
+}
+
+ul.accreditation_list li::before {
+    content: "-";
+    color: #00A3DA;
+    font-size: 1rem;
+    margin-right: 6px;
+}
+
+.weblink_holder {
+    position: absolute;
+    bottom: 22px;
+    font-size: 0.9rem;
+    font-weight: 300;
+    text-align: center;
+    right: 0;
+    left: 0;
+    color: #164A84;
+}
+
+.weblink_holder a {
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.application_for_admission {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 750px;
+    height: auto;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.about_laptop_holder {
+    position: relative;
+}
+
+.about_laptop {
+    position: relative;
+    left: -62%;
+    top: 30px;
+    width: 845px;
+    height: 545px;
+}
+
+.admission_text_holder {
+    position: relative;
+    top: 15vh;
+}
+
+.admission_text {
+    clear: both;
+    padding-top: 26px;
+}
+
+.admission_text p {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.admission_apply_button_holder {
+    padding-top: 42px;
+}
+
+
+
+
+
+
+/* =========================== */
+ /* ==== CONTACT (INNER) ==== */
+/* =========================== */
+
+.contact_bgd::after {
+    content: "";
+    background: url('../img/contact_bgd_1.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.contact_midmain_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 1200px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.two_maps_holder {
+    padding-top: 75px;
+    margin-bottom: 32px;
+}
+
+.map_title_holder {
+    padding-left: 0;
+    padding-top: 8px;
+}
+
+h4.map_title {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #164A84;
+    text-align: left;
+}
+
+h4.map_title i {
+    font-size: 1.3rem;
+    color: #84BF41 !important;
+    margin-right: 6px;
+}
+
+.map_title_holder p {
+    font-size: 1.1rem;
+    color: #666666;
+    text-align: left;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+span.cyan_circle_contact {
+    display: inline-block;
+    width: 372px;
+    height: 372px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 77px;
+    border-color: #00A3DA;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 14%;
+    right: -12%;
+    opacity: 0.2;
+}
+
+.phone_and_email_box_holder {
+    padding-top: 44%;
+}
+
+.phone_and_email_box {
+    clear: both;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    width: 98%;
+    margin: 0 auto;
+    text-align: center;
+    height: 125px;
+    background: transparent;
+    border: 1px dashed #164A84;
+    border-radius: 20px;
+    padding-top: 32px;
+}
+
+.icon_and_txt_holder {
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.icon_and_txt_holder a {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #666666;
+    text-align: center;
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -ms-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+}
+
+.icon_and_txt_holder a:hover, .icon_and_txt_holder a:focus {
+    color: #999999;
+}
+
+
+.icon_and_txt_holder a i {
+    font-size: 1.3rem;
+    color: #164A84 !important;
+    margin-right: 4px;
+}
+
+.contact_form_holder {
+    padding-top: 55px;
+    margin-bottom: 50px;
+}
+
+.smc_contact_form {
+    position: relative;
+    display: block;
+    width: 98%;
+    margin: 0 auto;
+    background: #f9f9f9;
+    border-radius: 20px;
+    min-height: 705px;
+    height: auto;
+
+    -webkit-box-shadow: 0 2px 3300px 18px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 2px 3300px 18px rgba(0,0,0,0.15);
+    box-shadow: 0 2px 3300px 18px rgba(0,0,0,0.15);
+}
+
+.form_innerbox {
+    padding: 32px 30px 32px 30px;
+}
+
+.contact_top {
+    height: 75px;
+    background: #164A84;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    vertical-align: middle;
+}
+
+.contact_top h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 1.5rem;
+    align-items: center;
+    display: flex;
+}
+
+.smc_form_group {
+    margin-bottom: 26px;
+}
+
+.smc_label {
+    font-size: 0.77rem;
+    font-weight: 600;
+    color: #666;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+input.smc_input {
+    height: 47px;
+    width: 100%;
+    padding-left: 12px;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #666666 !important;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+}
+
+input.smc_input:focus {
+    border: 1px solid #E4E4E4;
+}
+
+textarea.smc_input {
+    height: 210px;
+    width: 100%;
+    resize: none;
+    padding-left: 12px;
+    line-height: 24px;
+    font-size: 1rem;
+    color: #666666 !important;
+    background: #ffffff;
+    border-radius: 8px;
+    border: 1px solid #E4E4E4;
+    box-shadow: none !important;
+    -webkit-appearance: none !important;
+}
+
+textarea.smc_input:focus {
+    border: 1px solid #E4E4E4;
+}
+
+.contact_submit_btn_holder {
+    padding-top: 24px;
+    text-align: center;
+}
+
+span.red_circle_contact {
+    display: inline-block;
+    width: 1044px;
+    height: 1044px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 190px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: -18%;
+    left: -25%;
+    opacity: 0.2;
+}
+
+
+
+
+
+
+/* =========================== */
+/* ==== APPLICATION (INNER) ==== */
+/* =========================== */
+
+.application_bgd::after {
+    content: "";
+    background: url('../img/application_bgd_1.png') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(35%);
+    filter: brightness(35%);
+}
+
+.journey_area {
+    position: relative;
+    background: #f9f9f9;
+    min-height: 620px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.journey_image_holder {
+    position: relative;
+    top: 46px;
+}
+
+.journey_image {
+    display: block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border-radius: 100%;
+}
+
+.journey_text_holder {
+    position: relative;
+    padding-top: 65px;
+}
+
+.journey_text {
+    clear: both;
+    padding-top: 26px;
+}
+
+.journey_text p {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+    text-align: left;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.application_process_area {
+    position: relative;
+    background: #fefefe;
+    min-height: 720px;
+    height: auto;
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+
+.application_steps_holder {
+    padding-top: 75px;
+}
+
+.application_process_text {
+    clear: both;
+    padding-top: 26px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.application_process_text p {
+    font-size: 1rem;
+    color: #666666;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.7;
+    margin-bottom: 14px;
+}
+
+.application_form_area {
+    position: relative;
+    background: #f4f4f4;
+    min-height: 1720px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 55px;
+}
+
+span.application_cyan_circle {
+    display: inline-block;
+    width: 123px;
+    height: 123px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 30px;
+    border-color: #00A3DA;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 70%;
+    right: 3%;
+    opacity: 0.13;
+}
+
+
+span.application_grey_circle {
+    display: inline-block;
+    width: 590px;
+    height: 590px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 117px;
+    border-color: #666666;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 7%;
+    right: -27%;
+    opacity: 0.13;
+}
+
+span.application_blue_circle {
+    display: inline-block;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 90px;
+    border-color: #164A84;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 4%;
+    left: -19%;
+    opacity: 0.13;
+}
+
+form.smc_application_form {
+    padding-top: 32px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.application_form_label {
+    position: relative;
+    text-align: center;
+    height: 70px;
+    width: 45%;
+    margin: 0 auto;
+    background: rgba(0, 163, 218, 0.11);
+    border-radius: 100px;
+}
+
+h3.parent_program_title {
+    font-size: 0.77rem;
+    font-weight: 700;
+    color: #00A3DA;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-flex;
+    margin-bottom: 6px;
+}
+
+h6.child_program_title {
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: #164A84;
+    text-align: center;
+    margin-top: 0;
+}
+
+
+
+
+
+
+/* =========================== */
+/* ==== Diploma Programs (INNER) ==== */
+/* =========================== */
+
+.diploma_programs_bgd::after {
+    content: "";
+    background: url('../img/diploma_bgd_1.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+
+
+
+
+
+/* =========================== */
+/* ==== Search Results (INNER) ==== */
+/* =========================== */
+
+.search_results_area {
+    min-height: 900px;
+    height: auto;
+    background: #fefefe;
+    padding-top: 35px;
+    padding-bottom: 75px;
+}
+
+.mini_header {
+    background: #f4f4f4;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search_results_banner h2 {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #164A84;
+    text-align: left;
+}
+
+span.searchword {
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: left;
+    color: #666666;
+}
+
+.search_results_stripe {
+    min-height: 105px;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    border-bottom: 1px solid #E1E1E1;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+h4.detected_title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: left;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.detected {
+    background-color: #FFED00;
+}
+
+.search_results_stripe a {
+    text-decoration: none;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.search_results_stripe a:hover p {color: #999999;}
+.search_results_stripe a:hover h4 {color: #999999;}
+
+.search_results_stripe p {
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    font-weight: 400;
+
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.search_results_pagination_holder {
+    padding-top: 55px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+.pagination > li > a, .pagination > li > span {
+    margin-right: 8px;
+}
+
+.pagination > li > a, .pagination > li > span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #164A84;
+    text-decoration: none;
+    background-color: #f8f8f8;
+    border: none;
+    border-radius: 2px;
+}
+
+.pagination > .active > a, .pagination > .active > span, .pagination > .active > a:hover, .pagination > .active > span:hover, .pagination > .active > a:focus, .pagination > .active > span:focus {
+    background: #164A84;
+    color: #fff;
+}
+
+a.prev_pagination, a.next_pagination {
+    background: #f8f8f8 !important;
+    color: #164A84 !important;
+}
+
+.pagination > li.disabled > a {
+    opacity: 0.5;
+}
+
+.pagination > li:last-child > a, .pagination > li:last-child > span {
+    border-radius: 2px !important;
+}
+
+.pagination > li:first-child > a, .pagination > li:first-child > span {
+    border-radius: 2px !important;
+}
+
+h5.no_results {
+    font-size: 1.1rem;
+    text-align: left;
+    color: #666666;
+}
+
+h5.no_results i {
+    font-size: 1.1rem;
+    margin-right: 6px;
+    color: #D8232A;
+}
+
+
+
+
+
+
+
+
+
 
 
 

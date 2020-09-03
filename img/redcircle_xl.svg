@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1170px" height="554px" viewBox="0 0 1170 554" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Oval</title>
+    <defs>
+        <circle id="path-1" cx="585" cy="585" r="585"></circle>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="About-(Final)" transform="translate(-134.000000, -1426.000000)">
+            <g id="INSTITUTION" transform="translate(0.000000, 719.000000)">
+                <g id="ovalimag" transform="translate(134.000000, 707.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <circle stroke="#D8232A" stroke-width="212" cx="585" cy="585" r="479"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

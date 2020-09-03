@@ -1,10 +1,725 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <title>SMC Education Group | Home</title>
+    <link rel="icon" href="img/favicon/favicon-2.png" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=0">
+    <meta name="format-detection" content="telephone=no" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/47dff7d085.js" crossorigin="anonymous"></script>
+
+    <!-- Scroll Reveal smooth on-scroll animation-->
+    <script src="js/scrollreveal.js" type="text/javascript"></script>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;0,900;1,400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap + Custom Stylez -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
+    <link href="css/webfonts.css" rel="stylesheet" media="all">
+    <link href="css/smc_main.css" rel="stylesheet">
+    <link href="css/mq.css" rel="stylesheet">
 </head>
+
 <body>
+<div class="outermost_wrapper">
+
+    <nav class="navbar navbar-default smc_main_navbar">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#smc_nav_collapse_1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand animated bounceInLeft" href="#">
+                    <img src="img/SMCLogo.svg" class="header_logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="smc_nav_collapse_1">
+                <ul class="nav navbar-nav navbar-right smc_main_menu">
+                    <li class="active"><a href="#" class="smc_menu_link">Home</a></li>
+                    <li><a href="#" class="smc_menu_link">About</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle smc_menu_link smc_dropdown_link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Academic Programs</a>
+                        <ul class="dropdown-menu smc_dropdown">
+                            <li><a href="#">Degree Programs</a></li>
+                            <li><a href="#">Diploma Programs</a></li>
+                            <li><a href="#">Joint Programs</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="smc_menu_link">Enterprise</a></li>
+                    <li><a href="#" class="smc_menu_link">Contact Us</a></li>
+                    <li><a href="#" id="navbar_btn" class="btn">Apply</a></li>
+                </ul>
+
+                <div class="expanding-sf ">
+                    <div class="form"> <span class="toggle"></span>
+                        <form role="search" method="get" id="searchform" action="" autocomplete="off">
+                            <input type="text" placeholder="Enter a keyword" onfocus="placeholder='' " onblur="placeholder='Enter a keyword' " id="s" name="s" value="" class="proxima_lite">
+                            <input type="submit" value="" id="searchsubmit">
+                        </form>
+                    </div>
+                </div>
+
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container -->
+    </nav>
+
+    <header class="smc_header home_header">
+        <div class="home_bgd"></div>
+        <div class="container">
+            <div class="row">
+                <div class="h_banner_homepage">
+                    <h1>Trusted Online Education - Experience Matters</h1>
+                    <hr class="home_header_separator">
+                    <p>
+                        We equip individuals, teams, and organizations with the mindset , tools, and network to
+                        tackle the world’s biggest challenges.
+                    </p>
+                    <div class="home_cta_holder">
+                        <button class="btn main_cta">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header> <!-- Header END -->
+
+    <div class="homepage_logos_area">
+        <div class="container">
+            <div class="row">
+                <ul class="accreditation_logos_list">
+                    <li><span class="acc_logo" style="background: url('img/logo_enqa.png') center center no-repeat; background-size: 100%;"></span> </li>
+                    <li><span class="acc_logo" style="background: url('img/logo_nchfe.png') center center no-repeat; background-size: 100%;"></span> </li>
+                    <li><span class="acc_logo" style="background: url('img/logo_ministry.png') center center no-repeat; background-size: 100%;"></span> </li>
+                    <li><span class="acc_logo" style="background: url('img/logo_eqf.png') center center no-repeat; background-size: 100%;"></span> </li>
+                    <li><span class="acc_logo" style="background: url('img/logo_enicnaric.png') center center no-repeat; background-size: 100%;"></span> </li>
+                </ul>
+
+            </div>
+        </div>
+    </div> <!-- Homepage Logos Area END -->
+
+    <div class="featured_area">
+        <span class="redcirlce_featured"></span>
+        <div class="container">
+            <div class="row">
+                <div class="featured_boxes_holder">
+                    <div class="col-sm-6 featured_outermost">
+                        <div class="featurebox">
+                            <div class="featured_top_image_holder">
+                                <div class="featured_image" style="background: url('img/featured_bgd_1.jpg') center center no-repeat; background-size: cover;"></div>
+                            </div>
+                            <div class="featurebox_content_holder">
+                                <h3>Another possible placeholder for a featured news or programs and whatsoever</h3>
+                            </div>
+                            <article class="featurebox_text">
+                                <p>
+                                    Tincidunt ornare massa eget egestas purus viverra. Varius sit amet mattis vulputate
+                                    enim nulla aliquet porttitor lacus. Nibh praesent tristique magna sit amet purus gravida quis
+                                    blandit.
+                                </p>
+                            </article>
+                            <div class="featured_button_holder">
+                                <button class="btn featured_btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div> <!-- Featured Box END -->
+
+                    <div class="col-sm-6 featured_outermost">
+                        <div class="featurebox">
+                            <div class="featured_top_image_holder">
+                                <div class="featured_image" style="background: url('img/featured_bgd_2.jpg') center center no-repeat; background-size: cover;"></div>
+                            </div>
+                            <div class="featurebox_content_holder">
+                                <h3>The title placeholder goes here that also take more than one line</h3>
+                            </div>
+                            <article class="featurebox_text">
+                                <p>
+                                    Eget magna fermentum iaculis eu non diam. Laoreet sit amet cursus sit amet dictum.
+                                    Sapien eget mi proin sed libero enim sed faucibus tumagna fermentum iaculis eu non diam…
+                                </p>
+                            </article>
+                            <div class="featured_button_holder">
+                                <button class="btn featured_btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div> <!-- Featured Box END -->
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- Featured Area END -->
+
+    <div class="distance_learning_area">
+        <span class="greycirlce_distance"></span>
+        <div class="container">
+            <div class="row">
+                <div class="text-center center-block">
+                    <h2 class="page_title">Distance Learning Programs</h2>
+                    <hr class="title_decoration">
+                </div>
+                <article class="general_centered_paragraph">
+                    <p>
+                        SMC is a truly international business school with learners from more that 130 different countries.
+                        Our distance learning programs deliver what is expected from one of Europe’s best business schools –
+                        the development, manifestation, and sustaining of a great career. Global events like COVID 19
+                        force learners around the world to further develop via online education.
+                    </p>
+                    <p>
+                        <span class="boldify">Trust the pioneers in online higher education. Experience matters. Trust SMC.</span>
+                    </p>
+                </article>
+                <div class="distance_program_boxes_holder">
+                    <div class="col-sm-4 distance_program_box_outermost">
+                        <div class="distance_programbox">
+                            <div class="d_shape_holder">
+                                <div class="d_shape shape_1"></div>
+                            </div>
+                            <div class="text-center distance_programbox_title_holder">
+                                <h4>Degree Programs</h4>
+                            </div>
+                            <article class="distance_programbox_text">
+                                <p>
+                                    Our online degree programs are the best choice if you seek uncompromising recognition,
+                                    service quality, and flexibility. Designed for the working professional, our <span class="boldify">Bachelor</span>,
+                                    <span class="boldify">Executive Master</span>, and <span class="boldify">Doctorate</span> programs connect you with highly ranked professionals
+                                    and academicians around the world. These programs are government accredited and
+                                    internationally recognized in Academia, Industry, Government, Society, and non-profit sector.
+                                </p>
+                            </article>
+                            <div class="text-center center-block distance_programbox_button_holder">
+                                <button class="btn distance_prgrm_btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div> <!-- Distant Program Box END -->
+
+                    <div class="col-sm-4 distance_program_box_outermost">
+                        <div class="distance_programbox">
+                            <div class="d_shape_holder">
+                                <div class="d_shape shape_2"></div>
+                            </div>
+                            <div class="text-center distance_programbox_title_holder">
+                                <h4>Diploma Programs</h4>
+                            </div>
+                            <article class="distance_programbox_text">
+                                <p>
+                                    Our diploma programs are compact outtakes of our flagship degree programs. These
+                                    <span class="boldify">graduate</span> and <span class="boldify">post-graduate</span> courses offer you a foundation in Business Administration,
+                                    Management and Leadership, as well as the much-needed skills in critical applications
+                                    like finance, marketing, and accounting. Our Certificates and Diplomas are government
+                                    accredited. You may transfer these ECTS credits to higher education programs around the world.
+                                </p>
+                            </article>
+                            <div class="text-center center-block distance_programbox_button_holder">
+                                <button class="btn distance_prgrm_btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div> <!-- Distant Program Box END -->
+
+                    <div class="col-sm-4 distance_program_box_outermost">
+                        <div class="distance_programbox">
+                            <div class="d_shape_holder">
+                                <div class="d_shape shape_3"></div>
+                            </div>
+                            <div class="text-center distance_programbox_title_holder">
+                                <h4>Joint Programs</h4>
+                            </div>
+                            <article class="distance_programbox_text">
+                                <p>
+                                    We offer a variety of joint <span class="boldify">Master</span> and <span class="boldify">PhD</span> degree programs in cooperation with our
+                                    academic partner UCN, which is one of the leading universities in the Americas.
+                                    Operated by our academic center in Switzerland, these programs deliver true Swiss
+                                    quality education and students enjoy unsurpassed support and attention. Upon successful
+                                    completion, graduates receive a degree from UCN. The University is government accredited
+                                    and internationally recognized.
+                                </p>
+                            </article>
+                            <div class="text-center center-block distance_programbox_button_holder">
+                                <button class="btn distance_prgrm_btn">Learn More</button>
+                            </div>
+                        </div>
+                    </div> <!-- Distant Program Box END -->
+                </div>
+            </div>
+        </div>
+    </div> <!-- Distance Learning Area END -->
+
+    <div class="fromgreat_to_significant_area">
+        <span class="redcirlce_significant"></span>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 devices_holder">
+                    <div class="smc_devices"></div>
+                </div>
+                <div class="col-sm-6 significant_text_holder">
+                    <div class="text-left">
+                        <h2 class="page_title_left">From Great to Significant</h2>
+                        <hr class="title_decoration_left">
+                    </div>
+                    <article class="general_paragraph">
+                        <p>
+                            Within weeks the world has changed. Our lives have been changing. Circumstances
+                            not seeming possible a few months ago are now a reality. Perspectives of individuals
+                            and organizations are obscured. No-one has prepared the world for this.
+                        </p>
+                        <p>
+                            Online education is more important than ever. Social distancing is changing the way we learn.
+                            SMC has been changing the way we learn for 20 years. Let’s change the next 20 years together.
+                        </p>
+                    </article>
+                    <div class="significant_button_holder">
+                        <button class="btn learnmore_btn">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Great to Significant Area END -->
+
+    <div class="building_enterprise_area">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7 building_enterprise_text_holder">
+                    <div class="text-left">
+                        <h2 class="page_title_left">Building Adaptive Enterprises</h2>
+                        <hr class="title_decoration_left">
+                    </div>
+                    <article class="general_paragraph">
+                        <p>
+                            No organization is limited. True Greatness is a mindset.
+                        </p>
+                        <p>
+                            SMC helps organizations to transform into a disruptive, talent-oriented powerhouse capable
+                            to adapt towards challenges and opportunities, always on top of its game. We support
+                            for-profit-, non-profit-, and education institutions on their path to significance.
+                        </p>
+                    </article>
+                    <div class="significant_button_holder">
+                        <button class="btn learnmore_btn">Learn More</button>
+                    </div>
+                </div>
+                <div class="col-sm-5 building_enterprise_laptop_holder">
+                    <div class="smc_laptop"></div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Building Enterprise Area END -->
+
+    <div class="global_and_nearby_area">
+        <div class="container">
+            <div class="row">
+                <div class="text-center center-block">
+                    <h2 class="page_title whitetxt">Global and Yet Nearby. An Efficient Network</h2>
+                    <hr class="title_decoration">
+                </div>
+                <article class="text-center center-block general_centered_paragraph_white">
+                    <p>
+                        SMC’s student body consists of high achievers from and in more than 130 different countries.
+                        SMC’s international faculty boasts of vast  academic- and professional experience, service
+                        orientation, and attentiveness. Your gateway to extensive know-how and best practices.
+                    </p>
+                </article>
+                <div class="homepage_stats_holder">
+                    <div class="col-sm-3 homepage_stat_outerbox">
+                        <div class="circle_and_numbers_holder">
+                        <div class="stat_circle blue">
+                            <div class="number_and_text_wrapper">
+                                <h1>100%</h1>
+                                <h5>Online</h5>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="stat_text_holder">
+                            <p>Study From Anywhere</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 homepage_stat_outerbox">
+                        <div class="circle_and_numbers_holder">
+                            <div class="stat_circle grey">
+                                <div class="number_and_text_wrapper">
+                                    <h1>130+ </h1>
+                                    <h5>Countries</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat_text_holder">
+                            <p>International Student Body</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 homepage_stat_outerbox">
+                        <div class="circle_and_numbers_holder">
+                            <div class="stat_circle red">
+                                <div class="number_and_text_wrapper">
+                                    <h1>20+ </h1>
+                                    <h5>Years</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat_text_holder">
+                            <p>Experience Matters</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 homepage_stat_outerbox">
+                        <div class="circle_and_numbers_holder">
+                            <div class="stat_circle cyan">
+                                <div class="number_and_text_wrapper">
+                                    <h1>1st</h1>
+                                    <h5>In Europe</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="stat_text_holder">
+                            <p>Licensed Online Business School</p>
+                        </div>
+                    </div>
+                </div> <!-- Stats END -->
+                <hr class="artificial_gap">
+                <div class="center-block text-center general_centered_button_holder">
+                    <button class="btn apply_now_btn">Apply Now</button>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Global and Nearby Area END -->
+
+    <div class="advantages_area">
+        <span class="advantaes_red_circle"></span>
+        <div class="container">
+            <div class="row">
+                <div class="text-center center-block">
+                    <h2 class="page_title">Why Choose SMC?</h2>
+                    <hr class="title_decoration">
+                </div>
+                <div class="advantages_holder">
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_1.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>SMC is government accredited and internationally recognized</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_2.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>All SMC programs and courses are 100% online and fully flexible</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_3.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>SMC is affordable. Our tuition fees are below average in comparison to other leading European institutions</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_4.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>SMC is diverse. We attract and welcome students from all backgrounds, cultures, orientation, and status</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_5.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>SMC is an eLearning pioneer. We have been offering online education for over 20 years</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 adv_outerbox">
+                        <div class="adv_box">
+                            <div class="adv_icon" style="background: url('img/adv_icon_6.svg') center center no-repeat; background-size: contain;"></div>
+                            <p>All the courses are 100% remote. There is no need to attentd or visit any institutions in person.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!-- Advantaes Area END -->
+
+    <div class="faq_area">
+        <span class="faq_circle"></span>
+        <div class="container">
+            <div class="row">
+                <div class="text-center center-block">
+                    <h2 class="page_title">FAQ</h2>
+                    <hr class="title_decoration">
+                </div>
+                <div class="faq_holder">
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_1" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Is SMC an accredited Higher Education Institution?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_1" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        Yes. SMC is institutionally accredited by the National Commission for Further
+                                        and Higher Education of the Ministry of Education.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_2" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Which programs of SMC are accredited?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_2" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        All Degree Programs and Diploma Programs are accredited by the National Commission
+                                        for Further and Higher Education.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_3" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Are the Joint Programs offered by SMC accredited?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_3" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        The joint programs are operated by SMC and not covered by the NCFHE. The degrees
+                                        of the Joint Programs are conferred by our academic partner UCN, which is a
+                                        leading government-accredited University in the Americas.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_4" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">How much tuition do I have to pay?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_4" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        The tuition depends on your choice of program. Details are highlighted in each
+                                        program section of the website.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_5" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Which payment options do you I have?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_5" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        You may choose between a discounted upfront payment or a flexible payment schedule.
+                                        Individual payment schedules are available upon request. We do accept bank
+                                        transfer and credit card payments
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_6" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Can I get financial assistance from SMC?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_6" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        We do provide financial assistance upon request and documentation. Due to
+                                        current global events like the Pandemic, we do grant allowances of up to 25%
+                                        and interest free down payments in a straight-forward process upon request.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_7" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">How do I attend classes at SMC?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_7" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        All you need in order to study at SMC is a reliable internet connection.
+                                        The best experience can be achieved with a standard Laptop, Notebook, or PC.
+                                        You can also have a great study experience on a Tablet, and even a Smart Phone.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_8" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Is physical attendance required to study at SMC?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_8" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        No physical attendance is needed. The distance learning programs offered
+                                        by SMC are 100% online via our state-of-the-art eLearning system.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_9" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Can I study on-site at a SMC Campus?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_9" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        SMC does not offer any on-site programs.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <section class="well sequence_stripe panel">
+                        <a class="toggle_stripe collapsed" data-toggle="collapse" data-target="#question_10" data-text-original="" data-text-swap="" aria-expanded="false">
+                                    <span class="step_toggler pull-right">
+                                        <i class="fas fa-caret-down"></i>
+                                    </span>
+                            <h4 class="step_title">Are international students accepted at SMC?</h4>
+                            <div class="clearfix"></div>
+                            <div id="question_10" class="panel-collapse collapse" aria-expanded="false" style="height: 0;">
+                                <article class="step_description">
+                                    <p>
+                                        Students from all over the world may join SMC and attend our programs. Since 100%
+                                        online you may study from any place, country, or region. All you need is an internet connection.
+                                    </p>
+                                </article>
+                            </div>
+                        </a>
+                    </section> <!-- Question Stripe END -->
+
+                    <article class="post_faq_text text-center center-block">
+                        <p>Do you have more questions?</p>
+                        <p>Get in touch with us and we’ll be happy to answer them all</p>
+                    </article>
+
+                    <div class="center-block text-center general_centered_button_holder_faq">
+                        <button class="btn apply_now_btn">Contact Us</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div> <!-- FAQ Area END -->
+
+    <footer class="smc_footer">
+        <div class="container">
+            <div class="row">
+                <div class="smc_footer_inner_content_holder">
+                    <div class="col-sm-3 footer_logo_and_socials_holder">
+                        <div class="footer_logo_holder">
+                            <img src="img/SMCLogo_footer.svg" class="footer_logo img-responsive">
+                        </div>
+                        <div class="footer_socials_holder">
+                            <ul class="footer_socials">
+                                <li><a href="https://www.linkedin.com/company/smceducation/" class="f_social"><i class="fab fa-facebook"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/smceducation/" class="f_social"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/smceducation/" class="f_social"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/smceducation/" class="f_social"><i class="fab fa-youtube"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/smceducation/" class="f_social"><i class="fab fa-instagram"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 footer_links_holder">
+                        <h5 class="footer_links_title">Quick Links</h5>
+                        <ul class="footer_links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Enterprise</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 col-xs-6 footer_links_holder">
+                        <h5 class="footer_links_title">Our Programs</h5>
+                        <ul class="footer_links">
+                            <li><a href="#">Degree Programs</a></li>
+                            <li><a href="#">Diploma Programs</a></li>
+                            <li><a href="#">Joint Programs</a></li>
+                            <li><a href="#">All Programs</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-sm-3 footer_subscribe_holder">
+                        <h5 class="footer_links_title">Newsletter</h5>
+                        <div class="footer_form_holder">
+                            <p>Get the Latest News & Views from SMC Business School</p>
+                            <form id="newsletterForm" class="smc_footer_newsletter_form" role="form">
+                                <div class="form-group tt_form_group_newsletter">
+                                    <label for="emailAddress"></label>
+                                    <button type="submit" class="smc_footer_newsletter_submit_btn"><i class="fas fa-paper-plane" aria-hidden="true"></i></button>
+                                    <input type="text" autocomplete="off" class="form-control smc_footer_newsletter_input" id="emailAddress" placeholder="Your Email" onfocus="placeholder='' " onblur="placeholder='Your Email' ">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <hr class="footer_separator">
+                    <div class="footer_bottommost_holder">
+                        <small class="footer_bottomtext">&copy; 2020 SMC Education Group, All RIghts Reserved</small>
+                        <div class="footer_mini_list_holder">
+                            <ul class="footer_mini_list">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer> <!-- Footer END -->
+
+</div> <!-- Outermost END-->
+
+<!-- jQuery'z -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+<!-- JSz -->
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/smc.js"></script>
 
 </body>
+
 </html>

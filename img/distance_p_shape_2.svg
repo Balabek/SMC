@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="125px" height="65px" viewBox="0 0 125 65" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Fill 20</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-12" transform="translate(-658.000000, -2141.000000)" fill="#00A3DA">
+            <g id="PROGRAMS" transform="translate(-664.000000, 1685.000000)">
+                <g id="3-Boxes" transform="translate(0.000000, 289.650000)">
+                    <g id="p-box-2" transform="translate(1184.000000, 69.000000)">
+                        <path d="M263,98 C263,133.059494 235.009712,161.477523 200.493925,161.477523 C165.978138,161.477523 138,133.059494 138,98 L169.252531,98 C169.252531,115.535403 183.242107,129.743903 200.493925,129.743903 C217.757893,129.743903 231.747469,115.535403 231.747469,98 L263,98" id="Fill-20"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
