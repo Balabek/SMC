@@ -212,6 +212,8 @@
     ul.accreditation_logos_list li {float: none;}
     .acc_logo {width: 128px; height: 74px;}
     .homepage_logos_area {padding-top: 24px;}
+
+    .f_title_holder h1 {font-size: 2.2rem;}
 }
 
 @media screen and (max-width: 505px){
@@ -234,6 +236,8 @@
 
 @media screen and (max-width: 414px){
     .adv_box p {font-size: 0.9rem;}
+
+    .f_title_holder h1 {font-size: 2rem;}
 }
 
 @media screen and (max-width: 378px){
@@ -243,44 +247,11 @@
     .smc_laptop {height: 280px;}
 
     .adv_icon {float: none;}
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 350px){
+    .f_title_holder h1 {font-size: 1.88rem;}
+}
 
 
 
@@ -667,6 +638,8 @@
     .journey_text_holder {padding-top: 8px;}
     .journey_image {width: 275px; height: 275px;}
     .journey_area {min-height: 550px;}
+
+    .smc_application_form {width: 100%;}
 }
 
 @media screen and (max-width: 767px){
@@ -679,7 +652,19 @@
     span.application_cyan_circle {opacity: 0.1; top: 80%;}
 }
 
+@media screen and (max-width: 710px){
+    .application_form_label {width: 70%;}
+}
 
+@media screen and (max-width: 450px){
+    .application_form_label {width: 90%;}
+}
+
+@media screen and (max-width: 375px){
+    h3.parent_program_title {font-size: 0.66rem;}
+    h6.child_program_title {font-size: 0.8rem;}
+
+}
 
 
 
@@ -697,4 +682,13 @@
 
 @media screen and (max-width: 767px){
     .search_results_area {width: 94%; margin: 0 auto;}
+    span.notfound_red_circle {right: -125px;}
+}
+
+@media screen and (max-width: 440px) {
+    .notfound_txt_holder h1 {font-size: 8rem;}
+    .notfound_txt_holder h4 {font-size: 1.8rem;}
+
+    span.notfound_red_circle {right: -145px; top: 5px;}
+
 }

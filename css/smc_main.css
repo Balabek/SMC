@@ -3547,8 +3547,8 @@ span.application_grey_circle {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     top: 7%;
-    right: -27%;
-    opacity: 0.13;
+    right: -410px;
+    opacity: 0.1;
 }
 
 span.application_blue_circle {
@@ -3562,8 +3562,8 @@ span.application_blue_circle {
     background-color: rgba(0, 0, 0, 0);
     position: absolute;
     bottom: 4%;
-    left: -19%;
-    opacity: 0.13;
+    left: -280px;
+    opacity: 0.1;
 }
 
 form.smc_application_form {
@@ -3780,6 +3780,193 @@ h5.no_results i {
 
 
 
+
+
+
+/* =========================== */
+/* ==== Featured Details (INNER) ==== */
+/* =========================== */
+
+.featured_details_main_area {
+    position: relative;
+    min-height: 800px;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 75px;
+    background: #fefefe;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.f_details_banner {
+    height: 300px;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 36px;
+}
+
+.f_title_holder {
+    padding-left: 0;
+}
+
+.f_title_holder h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #666;
+    text-align: left;
+}
+
+hr.f_bold_separator {
+    clear: both;
+    width: 100%;
+    border: none;
+    height: 2px;
+    background-color: #84BF41;
+}
+
+.f_author_and_date_holder {
+    padding-left: 0;
+}
+
+.f_author_holder {
+    display: inline-block;
+    margin-right: 32px;
+}
+
+span.f_author {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #666666;
+    font-weight: 300;
+}
+
+span.f_author i {
+    color: #164A84;
+    margin-right: 4px;
+}
+
+.f_date_holder {
+    display: inline-block;
+    margin-right: 0;
+}
+
+span.f_date {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #666666;
+    font-weight: 300;
+}
+
+span.f_date i {
+    color: #164A84;
+    margin-right: 4px;
+}
+
+article.f_main_text {
+    padding-top: 32px;
+}
+
+article.f_main_text p {
+    font-size: 1rem;
+    text-align: left;
+    color: #666666;
+    line-height: 1.9;
+    margin-bottom: 18px;
+}
+
+h3.f_subtitle {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #164A84;
+    text-align: left;
+    margin-top: 28px;
+}
+
+
+
+
+
+
+/* =========================== */
+/* ==== Error 404 ==== */
+/* =========================== */
+
+.not_found_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background: #fefefe;
+    min-height: 100%;
+    min-width: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.not_found {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.notfound_txt_holder {
+    position: relative;
+    z-index: 4;
+    text-align: center;
+}
+
+.notfound_txt_holder h1 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: bold;
+    color: #164A84;
+    font-size: 12rem;
+    text-align: center;
+    margin-top: 0;
+}
+
+.notfound_txt_holder h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-weight: normal;
+    color: #164A84;
+    font-size: 3.1rem;
+    text-align: center;
+}
+
+span.notfound_blue_circle {
+    display: inline-block;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 90px;
+    border-color: #164A84;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    bottom: 4%;
+    left: -280px;
+    opacity: 0.1;
+}
+
+span.notfound_red_circle {
+    display: inline-block;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 45px;
+    border-color: #D8232A;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 55px;
+    bottom: 0;
+    right: 28px;
+    opacity: 0.2;
+}
 
 
 
