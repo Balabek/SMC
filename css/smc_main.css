@@ -1193,8 +1193,8 @@ article.post_faq_text p {
     background-size: cover;
     display: block;
     position: absolute;
-    opacity: 0.3;
-    height: 90%;
+    opacity: 0.2;
+    /*height: 90%;*/
     width: 100%;
     top: 0;
     bottom: 0;
