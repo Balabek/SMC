@@ -22,6 +22,7 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"/>
     <link href="css/webfonts.css" rel="stylesheet" media="all">
+    <link href="css/select2.css" rel="stylesheet" media="all">
     <link href="css/smc_main.css" rel="stylesheet">
     <link href="css/mq.css" rel="stylesheet">
 </head>
@@ -209,11 +210,79 @@
                     <h2 class="page_title">Submit Your Application</h2>
                     <hr class="title_decoration">
                 </div>
-                <div class="smc_application_form" role="form">
+                <div class="smc_application_form">
                     <div class="application_form_label">
                         <h3 class="parent_program_title">Joint Programs</h3>
                         <h6 class="child_program_title">MBA in Information Security Management</h6>
                     </div>
+
+                    <form id="smcForm" class="smc_main_application_form" role="form">
+                        <div class="form-group smc_form_group">
+                            <label class="smc_label" for="yourName">Program Name</label>
+                            <input type="text" class="form-control smc_input" id="yourName">
+                        </div>
+                        <div class="form-group smc_form_group">
+                            <label class="smc_label" for="smcSalutationSelector">Salutation</label>
+                            <select id="smcSalutationSelector">
+                                <option>Mr.</option>
+                                <option>Mrs.</option>
+                                <option>Ms.</option>
+                                <option>Dr.</option>
+                            </select>
+                        </div>
+
+                        <article class="attach_reqs">
+                            <p>Please upload your personal documents. Acceptable formats are DOC, RTF, PDF, PPT, TIF, JPG</p>
+                        </article>
+
+                        <div class="attach_button_and_text_holder">
+                            <div class="upload_btn_wrapper">
+                                <button class="upload_btn selected">
+                                    <i class="fas fa-check"></i>
+                                </button>
+                                <input class="maskedInput" type="file" name="myfile" />
+                            </div>
+                            <div class="attach_text_holder">
+                                <p>Detailed curriculum vitae/resume (required)</p>
+                            </div>
+                        </div>
+
+                        <div class="attach_button_and_text_holder">
+                            <div class="upload_btn_wrapper">
+                                <button class="upload_btn">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <input class="maskedInput" type="file" name="myfile" />
+                            </div>
+                            <div class="attach_text_holder">
+                                <p>ID or Passport scan/photo (required)</p>
+                            </div>
+                        </div>
+
+                        <div class="attach_button_and_text_holder">
+                            <div class="upload_btn_wrapper">
+                                <button class="upload_btn">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <input class="maskedInput" type="file" name="myfile" />
+                            </div>
+                            <div class="attach_text_holder">
+                                <p>Transcript of highest degree earned (recommended)</p>
+                            </div>
+                        </div>
+
+                        <div class="attach_button_and_text_holder">
+                            <div class="upload_btn_wrapper">
+                                <button class="upload_btn">
+                                    <i class="fas fa-plus"></i>
+                                </button>
+                                <input class="maskedInput" type="file" name="myfile" />
+                            </div>
+                            <div class="attach_text_holder">
+                                <p>Highest degree diploma/certificate scan/photo (required)</p>
+                            </div>
+                        </div>
+                    </form>
 
 
 
@@ -296,6 +365,17 @@
 <!-- JSz -->
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/smc.js"></script>
+<script type="text/javascript" src="js/select2.js"></script>
+<script type="text/javascript">
+
+    $('#smcSalutationSelector').select2({
+        width: '100%',
+        minimumResultsForSearch: -1,
+        placeholder: ""
+    });
+
+
+</script>
 
 </body>
 

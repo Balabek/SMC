@@ -48,7 +48,38 @@ $(document).ready(function(){
     ScrollReveal().reveal('.smc_laptop', {delay: 300}, {duration: 1300});
     ScrollReveal().reveal('.adv_icon', {delay: 300}, {duration: 1300});
 
+    // Subtle fade-in animation for the mentioned elements ('Agents' page)
+    ScrollReveal().reveal('.represent_image', {delay: 400});
+    ScrollReveal().reveal('.represent_textual_area', {delay: 100});
+    ScrollReveal().reveal('.general_offers_holder', {delay: 200});
+    ScrollReveal().reveal('.op_box', {delay: 300},{duration: 800});
 
+    // Subtle fade-in animation for the mentioned elements ('Methodology' page)
+    ScrollReveal().reveal('.methods_circles_holder', {delay: 300});
+    ScrollReveal().reveal('.holistic_image', {delay: 300},{duration: 1100});
+
+    // Subtle fade-in animation for the mentioned elements ('Accreditation' page)
+    ScrollReveal().reveal('.accr_box', {delay: 300},{duration: 800});
+
+    // Subtle fade-in animation for the mentioned elements ('Academic Team' page)
+    ScrollReveal().reveal('.academic_card', {delay: 200});
+
+
+    let uploadButton = $('.upload_btn');
+
+    let fileInput = document.getElementsByClassName('maskedInput');
+    fileInput.onchange = function () {
+
+        let input = this.files[1];
+
+        if (input) {
+            //process input.
+            this(uploadButton).element.classList.add("selected");
+
+        } else {
+            alert("Please select a file.");
+        }
+    };
 
 
 

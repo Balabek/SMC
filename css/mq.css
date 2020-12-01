@@ -46,6 +46,7 @@
         right: 0;
         left: 0;
     }
+
 }
 
 @media screen and (max-width: 767px){
@@ -83,6 +84,9 @@
 @media screen and (max-width: 991px){
     .header_logo {top: -75px; width: 25%;}
 
+    ul.dropdown-menu.smc_dropdown {left: -75px;}
+    ul.smc_main_menu li {text-align: right; margin-right: 85px;}
+
     ul.smc_main_menu {
         right: 0;
         top: 0;
@@ -93,7 +97,7 @@
 
     ul.dropdown-menu.smc_dropdown {top: 27px;}
 
-    a#navbar_btn {line-height: 1.7; width: 100%; margin-top: 12px;}
+    a#navbar_btn {line-height: 1.7; width: 80%; margin-top: 12px;}
 
     .expanding-sf {margin-top: 12px;}
 
@@ -106,6 +110,9 @@
 
 @media screen and (max-width: 767px){
     .header_logo {left: 15px; width: 171px; top: 0;}
+
+    ul.smc_main_menu li {margin-right: 15px;}
+    a#navbar_btn {width: 100%;}
 }
 
 @media screen and (max-width: 602px){
@@ -135,6 +142,8 @@
     .acc_logo {width: 135px;}
 
     .smc_laptop {height: 400px; top: 100px; right: 161px;}
+
+    /*.distance_programbox {min-height: 730px;}*/
 }
 
 @media screen and (max-width: 991px){
@@ -146,7 +155,7 @@
     article.featurebox_text p {font-size: 0.9rem;}
 
     .distance_program_box_outermost {width: 100%;}
-    .distance_programbox {margin-bottom: 24px; height: 575px;}
+    .distance_programbox {margin-bottom: 24px; height: auto;}
 
     .stat_circle {width: 135px; height: 135px; padding-top: 22px;}
     .number_and_text_wrapper h1 {font-size: 2.3rem;}
@@ -449,6 +458,10 @@
 
 /* >>>>> SM/XS <<<<< */
 
+@media screen and (max-width: 1199px){
+    button.more_info_mini_btn {margin-bottom: 8px;}
+}
+
 @media screen and (max-width: 991px){
     .intro_paragraph {width: 85%; margin: 0 auto;}
     .intro_paragraph p {font-size: 1rem;}
@@ -650,6 +663,9 @@
     hr.title_decoration_left.application {float: none;}
     .journey_text p {text-align: center;}
     span.application_cyan_circle {opacity: 0.1; top: 80%;}
+
+    .smc_application_form {width: 96%;}
+
 }
 
 @media screen and (max-width: 710px){
@@ -690,5 +706,232 @@
     .notfound_txt_holder h4 {font-size: 1.8rem;}
 
     span.notfound_red_circle {right: -145px; top: 5px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ACADEMIC TEAM ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    h5.filtertitle {font-size: 0.77rem; top: 14px;}
+    .filter_submit_btn_holder {padding-left: 0;}
+    button.filter_apply_btn {width: 100%;}
+    span.academic_greycircle {left: -45%; top: 65%;}
 
 }
+
+@media screen and (max-width: 767px){
+    .filter_box {padding-bottom: 32px;}
+    button.filter_apply_btn {display: block; width: 200px; margin: 0 auto;}
+    .filtericon_and_title {left: 0; display: flex; justify-content: center; top: -30px;}
+    h5.filtertitle {font-size: 0.99rem; top: 3px;}
+    .filter_selector_holder {top: -8px;}
+    .academic_faces_holder {padding-top: 10px;}
+    .academic_description {min-height: 140px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== METHODOLOGY ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    h4.method_title {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 767px){
+    .methods_circles_holder {padding-top: 24px;}
+    .method_circle {margin-bottom: 12px;}
+    .method_circle_outerbox {margin-bottom: 55px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== HOLISTIC ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .holistic_image {width: 270px; height: 270px; top: 36px; position: relative; margin: 0 auto;}
+}
+
+@media screen and (max-width: 767px){
+    .holistic_image_holder {padding-left: 8px;}
+
+    .outcome_tabs_holder {padding-left: 12px; padding-right: 12px; width: 65%; margin: 0 auto;}
+    ul.outcome_pill {margin-bottom: 75px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== ACCREDITATION ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .accreditation_image_holder {top: 90px;}
+
+    .ghostlogo.logo1 {left: 160px;}
+    .ghostlogo.logo2 {left: 280px;}
+}
+
+@media screen and (max-width: 1099px){
+    .accr_logo {width: 200px;}
+}
+
+@media screen and (max-width: 991px){
+    .ghostlogo.logo1 {left: 55px;}
+    .ghostlogo.logo2 {left: 190px;}
+
+    .ref_text_outermost {padding-left: 22px; padding-right: 22px;}
+}
+
+@media screen and (max-width: 860px){
+    .accr_logo {width: 145px;}
+}
+
+@media screen and (max-width: 767px){
+    .accreditation_text_section {border-right: none;}
+    .accr_logo {width: 35%; float: left; margin-right: 85px; margin-bottom: 140px;}
+
+    .accr_box {margin-bottom: 32px;}
+
+    .ghostlogo.logo1 {left: 30px; height: 100px;}
+    .ghostlogo.logo2 {left: 30px; height: 200px;}
+
+}
+
+@media screen and (max-width: 620px){
+    .accr_logo {width: 35%; margin-right: 55px; margin-bottom: 130px;}
+}
+
+@media screen and (max-width: 470px){
+    .ghostlogo.logo1 {height: 60px; opacity: 0.1;}
+    .ghostlogo.logo2 {opacity: 0.1;}
+}
+
+@media screen and (max-width: 420px){
+    .accr_logo {width: 35%; margin-right: 25px; margin-bottom: 110px;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== AGENTS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 1199px){
+    .represent_image {width: 300px; height: 300px;}
+
+    .highlighted_announcement p {width: 80%;}
+}
+
+@media screen and (max-width: 991px){
+    .h_banner h2 {font-size: 1rem;}
+    .represent_image {width: 230px; height: 230px;}
+
+    .general_offers_holder {width: 99%;}
+
+    .highlighted_announcement p {width: 96%;}
+}
+
+@media screen and (max-width: 767px){
+    .represent_image {margin:  0 auto; position: relative; z-index: 5;}
+    .represent_image_holder {top: 10px;}
+    .represent_textual_area {padding-left: 16px; padding-right: 16px;}
+
+    .general_offers_holder {width: 70%; left: 0;}
+
+    .op_box {min-height: 376px; height: auto;}
+}
+
+@media screen and (max-width: 670px){
+    .highlighted_announcement p {width: 100%;}
+}
+
+@media screen and (max-width: 640px){
+    .highlighted_announcement p {font-size: 1rem;}
+
+    .agent_form {width: 96%;}
+}
+
+@media screen and (max-width: 580px){
+    .highlighted_announcement p {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 480px){
+    .highlighted_announcement p {top: 20px;}
+
+    .attach_reqs p {font-size: 0.8rem;}
+}
+
+@media screen and (max-width: 500px){
+    .general_offers_holder {width: 95%;}
+    h2.page_title.massive_title {font-size: 2.2rem;}
+}
+
+@media screen and (max-width: 430px){
+    h2.page_title.massive_title {font-size: 2rem;}
+}
+
+@media screen and (max-width: 380px){
+    h2.page_title.massive_title {font-size: 1.8rem;}
+}
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* === MASTERCLASSES === */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 767px){
+    .masterclass_box_bottommost_holder {min-height: 50px; height: auto;}
+    .masterclass_learnmore_btn_holder {top: -16px; float: left;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
