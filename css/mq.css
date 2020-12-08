@@ -278,10 +278,16 @@
 
 @media screen and (max-width: 1199px){
     .horizontal_key_titles_holder h5 {font-size: 0.9rem;}
-    .horizontal_key_titles_holder p {font-size: 0.8rem;}
+    .horizontal_key_titles_holder p {font-size: 0.72rem;}
+
+    .program_image_holder {min-height: 570px;}
+    .program_box {min-height: 570px;}
 }
 
 @media screen and (max-width: 991px){
+    .program_image_holder {min-height: 540px;}
+    .program_box {min-height: 540px;}
+
     h2.programbox_title {font-size: 1.44rem;}
     h3.programbox_subtitle {font-size: 1.1rem;}
 

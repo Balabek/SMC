@@ -2427,6 +2427,37 @@ hr.title_decoration {
     padding-bottom: 75px;
 }
 
+.phd_by_research_main_area {
+    position: relative;
+    min-height: 400px;
+    height: auto;
+    background: #ECF0F5;
+    padding-top: 80px;
+    padding-bottom: 75px;
+}
+
+ul.rsrch_phd_list {
+    padding-left: 0;
+}
+
+ul.rsrch_phd_list li {
+    list-style-type: none;
+    font-size: 1rem;
+    color: #666666;
+    text-align: left;
+    text-indent: -23px;
+    padding-left: 23px;
+    margin-bottom: 8px;
+}
+
+ul.rsrch_phd_list li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: #00A3DA;
+    font-size: 0.9rem;
+    margin-right: 6px;
+}
+
 span.redcirlce_three {
     display: inline;
     width: 770px;
