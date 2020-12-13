@@ -2629,6 +2629,7 @@ article.program_brief_info p {
 
 .program_cards_holder {
     position: relative;
+    width: 100%;
     min-height: 100%;
     height: auto;
     margin-bottom: 115px;
