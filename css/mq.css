@@ -407,7 +407,7 @@
 
     .footer_links_holder {padding-left: 12%; margin-bottom: 22px;}
 
-    .footer_subscribe_holder {width: 83%; margin: 0 auto;}
+    .footer_subscribe_holder {width: 90%; margin: 0 auto; padding-left: 12%;}
 
     hr.footer_separator {margin-top: 2%; width: 96%;}
 
@@ -420,7 +420,7 @@
 
 @media screen and (max-width: 418px){
     .footer_links_holder {padding-left: 6%;}
-    .footer_subscribe_holder {width: 96%;}
+    .footer_subscribe_holder {width: 96%; padding-left: 6%;}
 }
 
 
