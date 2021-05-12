@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="Minor improvements.">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deleted_sections.html" afterDir="false" />
+    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="The updated (2021) homepage fully responsive.">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mq.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/smc_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smc_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/smc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/smc.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +93,7 @@
       <workItem from="1610802136861" duration="51000" />
       <workItem from="1611509973864" duration="298000" />
       <workItem from="1611861581470" duration="14000" />
-      <workItem from="1620719320644" duration="28462000" />
+      <workItem from="1620719320644" duration="29528000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Degree Programs&quot; page fully responsive">
       <created>1597578965498</created>
@@ -176,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611510256371</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="The updated (2021) homepage fully responsive.">
+      <created>1620806743343</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1620806743343</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,6 +197,7 @@
     <MESSAGE value="&quot;Joint Programs&quot; - updated." />
     <MESSAGE value="Minor improvements." />
     <MESSAGE value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
-    <option name="LAST_COMMIT_MESSAGE" value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
+    <MESSAGE value="The updated (2021) homepage fully responsive." />
+    <option name="LAST_COMMIT_MESSAGE" value="The updated (2021) homepage fully responsive." />
   </component>
 </project>

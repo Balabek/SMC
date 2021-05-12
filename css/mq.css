@@ -282,13 +282,16 @@
 
 @media screen and (max-width: 560px){
     span.red_ghost_circle {width: 450px; height: 450px;}
+    .star_mc_area {min-height: 800px; padding-top: 0; padding-bottom: 25px;}
 }
 
 @media screen and (max-width: 460px){
+    .star_mc_area {min-height: 860px;}
     span.red_ghost_circle {width: 350px; height: 350px;}
 }
 
 @media screen and (max-width: 360px){
+    .star_mc_area {min-height: 890px;}
     span.red_ghost_circle {width: 250px; height: 250px;}
 }
 
