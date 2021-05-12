@@ -47,6 +47,10 @@ $(document).ready(function(){
     ScrollReveal().reveal('.smc_devices', {delay: 300}, {duration: 1300});
     ScrollReveal().reveal('.smc_laptop', {delay: 300}, {duration: 1300});
     ScrollReveal().reveal('.adv_icon', {delay: 300}, {duration: 1300});
+    ScrollReveal().reveal('.red_ghost_circle', {delay: 300}, {duration: 1300});
+    ScrollReveal().reveal('.wordcloud', {delay: 600}, {duration: 6000});
+    ScrollReveal().reveal('.explorebox', {delay: 200}, {duration: 1300});
+    ScrollReveal().reveal('.exploreboxlink', {delay: 400}, {duration: 1300});
 
     // Subtle fade-in animation for the mentioned elements ('Agents' page)
     ScrollReveal().reveal('.represent_image', {delay: 400});

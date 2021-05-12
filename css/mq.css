@@ -213,6 +213,7 @@
 @media screen and (max-width: 578px){
     .acc_logo {width: 75px;}
     .distance_programbox {height: 625px;}
+    .h_banner_homepage p {font-size: 1.1rem;}
 
     .smc_devices {height: 292px;}
 }
@@ -239,6 +240,7 @@
 
 @media screen and (max-width: 462px){
     .h_banner_homepage h1 {font-size: 2.4rem;}
+    .h_banner_homepage p {font-size: 1rem;}
 
     .featurebox_content_holder h3 {font-size: 1.1rem;}
     article.featurebox_text p {font-size: 0.9rem; -webkit-line-clamp: 3;}
@@ -253,6 +255,7 @@
 @media screen and (max-width: 378px){
     .h_banner_homepage h1 {font-size: 2.2rem;}
     .h_banner_homepage p {font-size: 1.1rem;}
+    .h_banner_homepage {top: 60px;}
 
     .smc_laptop {height: 280px;}
 
@@ -263,7 +266,69 @@
 
 @media screen and (max-width: 350px){
     .f_title_holder h1 {font-size: 1.88rem;}
+    .h_banner_homepage {top: 50px;}
+    .banner_logo {height: 90px;}
 }
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== STAR CIRCLE ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .star_banner {width: 90%;}
+}
+
+@media screen and (max-width: 560px){
+    span.red_ghost_circle {width: 450px; height: 450px;}
+}
+
+@media screen and (max-width: 460px){
+    span.red_ghost_circle {width: 350px; height: 350px;}
+}
+
+@media screen and (max-width: 360px){
+    span.red_ghost_circle {width: 250px; height: 250px;}
+}
+
+
+
+
+
+
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== CERTIFICATIONS SECTION ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    span.blu_ghost_circle {left: -50%;}
+}
+
+@media screen and (max-width: 500px){
+    .wordcloud {top: 0;}
+    .certif_area {padding-bottom: 40px;}
+}
+
+@media screen and (max-width: 414px){
+    .wordcloud {top: 0;}
+    .certif_area {padding-bottom: 20px;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

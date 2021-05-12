@@ -235,7 +235,7 @@ ul.dropdown-menu.smc_dropdown {
     left: 5px;
     top: 75px;
     background-color: #84BF41;
-    width: 275px;
+    width: auto;
     padding-top: 0;
     padding-bottom: 0;
     border: none;
@@ -452,7 +452,7 @@ a#navbar_btn:hover, a#navbar_btn:focus {
     padding-top: 20px;
     position: relative;
     z-index: 3;
-    top: 130px;
+    top: 110px;
 }
 
 .h_banner_homepage h1 {
@@ -1152,96 +1152,6 @@ article.post_faq_text p {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* =========================== */
 /* ==== Degree Programs (INNER) ==== */
 /* =========================== */
@@ -1638,6 +1548,7 @@ article.program_brief_description a:hover {
     min-height: 470px;
     height: auto;
     background: #2E2E2E;
+    padding-bottom: 75px
 }
 
 .smc_footer_inner_content_holder {
@@ -3450,7 +3361,7 @@ span.cyan_circle_contact {
     margin-bottom: 50px;
 }
 
-.smc_contact_form {
+.contact_form_holder .wpcf7-form, .smc_contact_form {
     position: relative;
     display: block;
     width: 98%;
@@ -4123,24 +4034,24 @@ span.notfound_red_circle {
 }
 */
 
-.smc_application_form .two-col {
+.agent_form_holder .two-col, .smc_application_form .two-col {
     width: 48%;
     float: left;
 }
 
-.smc_application_form .form-row {
+.agent_form_holder .form-row, .smc_application_form .form-row {
     clear: both;
 }
 
-.smc_application_form .margin-r {
+.agent_form_holder .margin-r, .smc_application_form .margin-r {
     margin-right: 2%;
 }
 
-.smc_application_form .float-right {
+.agent_form_holder .float-right, .smc_application_form .float-right {
     float: right;
 }
 
-.smc_application_form .submit-btn {
+.agent_form_holder .submit-btn, .smc_application_form .submit-btn {
     text-align: center;
     margin: 50px 0px;
 }
@@ -4269,7 +4180,7 @@ span.notfound_red_circle {
 
 .academic_team_bgd::after {
     content: "";
-     background: url('../img/academic_team_bgd.jpg') center center no-repeat;
+    background: url('../img/academic_team_bgd.jpg') center center no-repeat;
     background-size: cover;
     top: 0;
     left: 0;
@@ -5159,7 +5070,7 @@ article.op_box_text p {
     padding-top: 32px;
 }
 
-.agent_form {
+.agent_form form {
     position: relative;
     z-index: 5;
     min-height: 700px;
@@ -5217,4 +5128,473 @@ span.greyhalfcircle {
     top: 0;
     float: right;
 }
+
+
+
+/*
+██████╗░░█████╗░██████╗░░░███╗░░░░░░░░░██████╗████████╗░█████╗░░██████╗░███████╗██╗
+╚════██╗██╔══██╗╚════██╗░████║░░░░░░░░██╔════╝╚══██╔══╝██╔══██╗██╔════╝░██╔════╝██║
+░░███╔═╝██║░░██║░░███╔═╝██╔██║░░█████╗╚█████╗░░░░██║░░░███████║██║░░██╗░█████╗░░██║
+██╔══╝░░██║░░██║██╔══╝░░╚═╝██║░░╚════╝░╚═══██╗░░░██║░░░██╔══██║██║░░╚██╗██╔══╝░░██║
+███████╗╚█████╔╝███████╗███████╗░░░░░░██████╔╝░░░██║░░░██║░░██║╚██████╔╝███████╗██║
+╚══════╝░╚════╝░╚══════╝╚══════╝░░░░░░╚═════╝░░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░╚══════╝╚═╝
+*/
+
+/* =========================== */
+/* ==== Main Banner Tweaks 2021 ==== */
+/* =========================== */
+
+.banner_logo_holder {
+    position: relative;
+    top: 30px;
+    padding-left: 0;
+}
+
+.banner_logo_holder small {
+    font-size: 0.88rem;
+    text-align: left;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.banner_logo {
+    position: relative;
+    width: 100%;
+    height: 110px;
+    right: 25px;
+    top: -15px;
+}
+
+
+
+/* =========================== */
+/* ==== Explore Area ==== */
+/* =========================== */
+
+.secondary_boxes_holder {
+    padding: 0;
+}
+
+.explore_area {
+    position: relative;
+    min-height: 858px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    height: auto;
+    background: url('../img/explore_bgd.png') center center no-repeat;
+    background-size: cover;
+}
+
+.explore_boxes_holder {
+    position: relative;
+    padding-top: 55px;
+}
+
+.explorebox_outermost {
+    margin-bottom: 20px;
+}
+
+.explorebox {
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.xplrbx_one {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 22px 50px 22px;
+    height: 400px;
+}
+
+.xplrbx_one::after {
+    content: "";
+    background: url('../img/explore_one_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_one:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_two {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_two::after {
+    content: "";
+    background: url('../img/explore_two_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_two:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_three {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_three::after {
+    content: "";
+    background: url('../img/explore_three_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_three:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_four {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_four::after {
+    content: "";
+    background: url('../img/explore_four_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_four:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_five {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_five::after {
+    content: "";
+    background: url('../img/explore_five_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_five:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_six {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_six::after {
+    content: "";
+    background: url('../img/explore_six_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_six:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.xplrbx_seven {
+    position: relative;
+    overflow: hidden;
+    padding: 120px 22px 50px 22px;
+    height: 190px;
+}
+
+.xplrbx_seven::after {
+    content: "";
+    background: url('../img/explore_seven_bgd.png') center center no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+    transition: 0.4s ease all;
+}
+
+.xplrbx_seven:hover::after {
+    filter: saturate(70%) blur(2px);
+    transform: scale(1.2);
+}
+
+.explorebox_content {
+    position: relative;
+    z-index: 3;
+}
+
+.explore_accredit {
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.explore_heading_h4 {
+    font-size: 1.4rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+ul.explorebox_sublinks {
+    padding-left: 0;
+    position: relative;
+    top: 150px;
+}
+
+ul.explorebox_sublinks li {
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+
+ul.explorebox_sublinks li a {
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    transition: 0.4s ease-in-out all;
+}
+
+ul.explorebox_sublinks li a:hover {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+ul.explorebox_sublinks li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    color: #84BF41;
+    font-size: 1rem;
+    margin-right: 6px;
+    z-index: 4;
+}
+
+.explorebox_content_secondary {
+    position: relative;
+    z-index: 3;
+}
+
+.explore_heading_h5 {
+    font-size: 1.2rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+a.exploreboxlink {
+    display: block;
+    position: relative;
+    width: 100%;
+    border-radius: 8px;
+    text-decoration: none !important;
+
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.explore_heading_h6 {
+    font-size: 1rem;
+    text-align: left;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+
+
+
+/* =========================== */
+/* ==== Star Area ==== */
+/* =========================== */
+
+.star_mc_area {
+    padding-top: 75px;
+    padding-bottom: 185px;
+    min-height: 870px;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.star_mc_area::after {
+    content: "";
+    background: url('../img/starmanagercircle_bgd.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.star_banner {
+    position: relative;
+    display: block;
+    width: 61%;
+    margin: 0 auto;
+    top: 125px;
+}
+
+span.red_ghost_circle {
+    position: absolute;
+    margin: 0 auto;
+    display: block;
+    width: 550px;
+    height: 550px;
+    left: 0;
+    top: 19%;
+    right: 0;
+    background-blend-mode: multiply;
+    opacity: 0.3;
+    filter: brightness(75%);
+
+    background: url('../img/ghostredcircle.png') center center no-repeat;
+    background-size: contain;
+}
+
+span.boldandcaps {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+
+/* =========================== */
+/* ==== Certifications Area ==== */
+/* =========================== */
+
+.certif_area {
+    padding-top: 75px;
+    padding-bottom: 85px;
+    min-height: 640px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    background: #f4f4f4;
+}
+
+span.blu_ghost_circle {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 260px;
+    top: 30%;
+    right: 22%;
+    left: -22%;
+    background-blend-mode: multiply;
+
+    background: url('../img/ghostblucircle.png') center center no-repeat;
+    background-size: contain;
+}
+
+.wordcloud {
+    display: block;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 425px;
+    background: url('../img/wordcloud-2.png') center center no-repeat;
+    background-size: contain;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

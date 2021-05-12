@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="Minor improvements.">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deleted_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/mq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mq.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/smc_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smc_main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/smc.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/smc.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hXvp8NGQGYkDuWAWj5MSorrLRX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="" />
+      <created>1597233942390</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597233942390</updated>
+      <workItem from="1597233943865" duration="19999000" />
+      <workItem from="1597415721632" duration="13559000" />
+      <workItem from="1597521287328" duration="17215000" />
+      <workItem from="1597681632645" duration="1090000" />
+      <workItem from="1598277426178" duration="18905000" />
+      <workItem from="1598367124764" duration="12795000" />
+      <workItem from="1598531898185" duration="15053000" />
+      <workItem from="1598652599395" duration="13438000" />
+      <workItem from="1598719257248" duration="25463000" />
+      <workItem from="1598896930172" duration="15832000" />
+      <workItem from="1598981579288" duration="12368000" />
+      <workItem from="1599050591949" duration="22765000" />
+      <workItem from="1599935655602" duration="803000" />
+      <workItem from="1600170432684" duration="1450000" />
+      <workItem from="1600427287552" duration="665000" />
+      <workItem from="1600605097425" duration="5742000" />
+      <workItem from="1600949391695" duration="2431000" />
+      <workItem from="1601021141289" duration="15000" />
+      <workItem from="1601292998164" duration="3945000" />
+      <workItem from="1601718300865" duration="528000" />
+      <workItem from="1603205654965" duration="2257000" />
+      <workItem from="1606227860885" duration="145000" />
+      <workItem from="1606383299211" duration="33379000" />
+      <workItem from="1606740987348" duration="129000" />
+      <workItem from="1606742161055" duration="28320000" />
+      <workItem from="1607257995198" duration="206000" />
+      <workItem from="1607351764695" duration="686000" />
+      <workItem from="1607432486117" duration="5557000" />
+      <workItem from="1607676222988" duration="3444000" />
+      <workItem from="1607850962102" duration="2435000" />
+      <workItem from="1610801886202" duration="129000" />
+      <workItem from="1610802058638" duration="43000" />
+      <workItem from="1610802136861" duration="51000" />
+      <workItem from="1611509973864" duration="298000" />
+      <workItem from="1611861581470" duration="14000" />
+      <workItem from="1620719320644" duration="28462000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;Degree Programs&quot; page fully responsive">
+      <created>1597578965498</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1597578965498</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Phase-2 complete for 96%">
+      <created>1599139473406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599139473406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Phase-2 complete.">
+      <created>1599289746189</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599289746189</updated>
+    </task>
+    <task id="LOCAL-00004" summary="&quot;Degree Programs&quot; page fully responsive">
+      <created>1599994949544</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599994949544</updated>
+    </task>
+    <task id="LOCAL-00005" summary="All new pages (as per December 1, 2020) are complete.">
+      <created>1606830334611</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606830334611</updated>
+    </task>
+    <task id="LOCAL-00006" summary="All new pages (as per December 1, 2020) are complete.">
+      <created>1607258027495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607258027495</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added renewed &quot;Joint Pages&quot; layout and the detailed page for &quot;PhD by Research&quot; program.">
+      <created>1607437871215</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1607437871215</updated>
+    </task>
+    <task id="LOCAL-00008" summary="&quot;Joint Programs&quot; CTA box is update on the homepage.">
+      <created>1607684716778</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1607684716778</updated>
+    </task>
+    <task id="LOCAL-00009" summary="&quot;Joint Programs&quot; - updated.">
+      <created>1607686898951</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1607686898951</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Minor improvements.">
+      <created>1607853544728</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1607853544728</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues.">
+      <created>1611510256371</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1611510256371</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="Phase-2 complete for 96%" />
+    <MESSAGE value="Phase-2 complete." />
+    <MESSAGE value="&quot;Degree Programs&quot; page fully responsive" />
+    <MESSAGE value="All new pages (as per December 1, 2020) are complete." />
+    <MESSAGE value="Added renewed &quot;Joint Pages&quot; layout and the detailed page for &quot;PhD by Research&quot; program." />
+    <MESSAGE value="&quot;Joint Programs&quot; CTA box is update on the homepage." />
+    <MESSAGE value="&quot;Joint Programs&quot; - updated." />
+    <MESSAGE value="Minor improvements." />
+    <MESSAGE value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
+    <option name="LAST_COMMIT_MESSAGE" value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
+  </component>
+</project>
