@@ -2,8 +2,43 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="The updated (2021) homepage fully responsive.">
+      <change afterPath="$PROJECT_DIR$/img/certified.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/level.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/price.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_blue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_cyan.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_green.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_grey.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_orange.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_purple.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/product_halfcircle_red.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/CONTRIBUTING.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/Makefile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/README.markdown" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/component.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick.jquery.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/config.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/fonts/slick.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/fonts/slick.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/fonts/slick.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/fonts/slick.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick-theme.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick-theme.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick-theme.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/slick-1.7.1/slick/slick.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/mq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mq.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +128,7 @@
       <workItem from="1610802136861" duration="51000" />
       <workItem from="1611509973864" duration="298000" />
       <workItem from="1611861581470" duration="14000" />
-      <workItem from="1620719320644" duration="29528000" />
+      <workItem from="1620719320644" duration="46731000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Degree Programs&quot; page fully responsive">
       <created>1597578965498</created>
@@ -179,7 +214,28 @@
       <option name="project" value="LOCAL" />
       <updated>1620806743343</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="The updated (2021) homepage fully responsive.">
+      <created>1620807910961</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1620807910961</updated>
+    </task>
+    <task id="LOCAL-00014" summary="The updated (2021) homepage fully responsive.">
+      <created>1620807991426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620807991426</updated>
+    </task>
+    <task id="LOCAL-00015" summary="'Certifications' page (2021) fully responsive.">
+      <created>1620844166674</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620844166674</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +254,7 @@
     <MESSAGE value="Minor improvements." />
     <MESSAGE value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
     <MESSAGE value="The updated (2021) homepage fully responsive." />
-    <option name="LAST_COMMIT_MESSAGE" value="The updated (2021) homepage fully responsive." />
+    <MESSAGE value="'Certifications' page (2021) fully responsive." />
+    <option name="LAST_COMMIT_MESSAGE" value="'Certifications' page (2021) fully responsive." />
   </component>
 </project>
