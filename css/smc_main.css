@@ -5502,8 +5502,8 @@ a.exploreboxlink {
     right: 0;
     position: absolute;
     z-index: -1;
-    -webkit-filter: brightness(45%);
-    filter: brightness(45%);
+    -webkit-filter: brightness(55%);
+    filter: brightness(55%);
 }
 
 .star_banner {
@@ -5581,20 +5581,269 @@ span.blu_ghost_circle {
 
 
 
+/* =========================== */
+/* ====== Certifications ====== */
+/* =========================== */
+
+.certifications_bgd::after {
+    content: "";
+    background: url('../img/certifications_bgd.png') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.short_intro_text_area {
+    background: #f4f4f4;
+    position: relative;
+    display: block;
+    text-align: center;
+    min-height: 200px;
+    height: auto;
+    padding-top: 26px;
+    padding-bottom: 46px;
+}
+
+.most_popular_products_area {
+    position: relative;
+    display: block;
+    background: #fefefe;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    min-height: 790px;
+    height: auto;
+}
+
+.most_popular_slider_holder {
+    clear: both;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 46px;
+}
+
+.certificate_box {
+    margin-bottom: 55px;
+}
+
+.certificate_box {
+    display: block;
+    text-decoration: none !important;
+    position: relative;
+    min-height: 401px;
+    height: auto;
+    width: 100%;
+    background: #f5f5f5;
+    border-radius: 8px;
+    padding: 30px 30px 20px 30px;
+
+    transition: 0.4s ease-in-out all;
+}
+
+.certificate_box:hover {
+    background: #fff;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.11);
+    border-radius: 8px;
+}
+
+.product_title_holder {
+    min-height: 66px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #cacaca;
+}
+
+.product_title_h4 {
+    font-family: "SangBleu Kingdom", serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #164A84;
+    text-align: left;
+}
+
+span.product_halfcircle {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 124px;
+    top: 24px;
+    right: 0;
+}
+
+span.product_halfcircle.red {
+    background: url("../img/product_halfcircle_red.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.cyan {
+    background: url("../img/product_halfcircle_cyan.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.green {
+    background: url("../img/product_halfcircle_green.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.purple {
+    background: url("../img/product_halfcircle_purple.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.grey {
+    background: url("../img/product_halfcircle_grey.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.blue {
+    background: url("../img/product_halfcircle_blue.png") no-repeat;
+    background-size: contain;
+}
+span.product_halfcircle.orange {
+    background: url("../img/product_halfcircle_orange.png") no-repeat;
+    background-size: contain;
+}
+
+.product_facts_holder {
+    padding-top: 24px;
+}
+
+.p_fact {
+    margin-bottom: 18px;
+}
+
+span.p_fact_icon {
+    display: block;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    float: left;
+    margin-right: 8px;
+}
+
+span.p_fact_icon.level {
+    background: url('../img/level.svg') center center no-repeat;
+    background-size: contain;
+}
+span.p_fact_icon.price {
+    background: url('../img/price.svg') center center no-repeat;
+    background-size: contain;
+}
+span.p_fact_icon.certified {
+    background: url('../img/certified.svg') center center no-repeat;
+    background-size: contain;
+}
+span.p_fact_icon.time {
+    background: url('../img/time.svg') center center no-repeat;
+    background-size: contain;
+}
+
+.p_fact p {
+    font-size: 1rem;
+    line-height: 1.7;
+    color: #666666;
+    text-align: left;
+}
+
+.productbox_bottom_colorcode {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    color: #ffffff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-align: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.productbox_bottom_colorcode.cyan {background: #00A3DA;}
+.productbox_bottom_colorcode.red {background: #D8232A;}
+.productbox_bottom_colorcode.orange {background: #D36135;}
+.productbox_bottom_colorcode.green {background: #84BF41;}
+.productbox_bottom_colorcode.purple {background: #A188A6;}
+.productbox_bottom_colorcode.grey {background: #4A4D4D;}
+.productbox_bottom_colorcode.blue {background: #164A84;}
 
 
+.slick-prev:before, .slick-next:before {color: #666666;}
+.slick-dots {bottom: -38px;}
+.slick-dots li button::before {font-size: 10px;}
+.slick-prev, .slick-next {top: 42%;}
 
+.all_produc_boxes_area {
+    position: relative;
+    display: block;
+    background-image: linear-gradient(180deg, #f9f9f9 0%, #FFFFFF 100%);
+    padding-top: 36px;
+    padding-bottom: 36px;
+    min-height: 790px;
+    height: auto;
 
+}
 
+.product_filter_holder {
+    min-height: 90px;
+    height: auto;
+    padding: 0;
+}
 
+.product_filter_box {
+    background: transparent;
+}
 
+.product_filter_holder {
+    padding-top: 55px;
+    margin-bottom: 15px;
+}
 
+.product_filtericon {
+    display: inline-block;
+    height: 46px;
+    width: 46px;
 
+    background: url('../img/filtericon.svg') center center no-repeat;
+    background-size: contain;
+}
 
+hr.afterfilter_separator {
+    width: 100%;
+    height: 1px;
+    border: none;
+    text-align: center;
 
+    background: rgb(157, 164, 164);
+    background: linear-gradient(90deg, rgba(74,77,77,0) 0%, rgb(157, 164, 164) 50%, rgba(74,77,77,0) 100%);
+}
 
+.suggestion_subtitle {
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #164A84;
+    text-align: left;
+    padding-left: 0;
+    padding-top: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 
+.all_product_boxes_holder {
+    padding-left: 0;
+    padding-top: 42px;
+}
 
-
-
+.product_boxes_pagination_holder {
+    padding-top: 55px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
 

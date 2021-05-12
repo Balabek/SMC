@@ -1013,6 +1013,21 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== CERTIFICATIONS ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 767px){
+    .product_filter_holder {padding-top: 30px;}
+    .product_boxes_pagination_holder {padding-top: 10px;}
+}
+
+
+
+
+
 
 
 
