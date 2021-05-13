@@ -1029,6 +1029,21 @@
 
 
 
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+/* =========== STAR MANAGER CIRCLE ========== */
+/* !!!!!!!!!!!!!!!!!!!!!!!! */
+
+/* >>>>> SM/XS <<<<< */
+
+@media screen and (max-width: 991px){
+    .pricebox {margin-bottom: 32px;}
+}
+
+@media screen and (max-width: 767px){
+    .star_intro_holder {width: 90%; margin: 0 auto;}
+    .vendorbox {margin-bottom: 40px;}
+}
+
 
 
 

@@ -5847,3 +5847,342 @@ hr.afterfilter_separator {
     text-align: center;
 }
 
+
+
+
+
+/* =========================== */
+/* ====== Star Manager Circle ====== */
+/* =========================== */
+
+.starmanagercircle_bgd::after {
+    content: "";
+    background: url('../img/starmanagercircle_bgd.jpg') center center no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    -webkit-filter: brightness(45%);
+    filter: brightness(45%);
+}
+
+.unlimited_area {
+    position: relative;
+    min-height: 1050px;
+    height: auto;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    background: url('../img/blackmarble.png') center center no-repeat;
+    background-size: cover;
+}
+
+.star_intro_holder {
+    position: relative;
+    min-height: 110px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #676767;
+}
+
+.three_vendors_area {
+    padding-top: 55px;
+}
+
+.viptetxt {color: #CEA768 !important;}
+
+hr.title_decoration.vipdecoration {background-color: silver;}
+
+.vendor_boxes_holder {
+    padding-top: 75px;
+}
+
+.vendorbox {
+    position: relative;
+    height: 362px;
+    width: 100%;
+    border-radius: 8px;
+    background: #222222;
+    box-shadow: 0 0 2724px 0 rgba(255,255,255,0.07);
+    padding: 26px 30px 26px 30px;
+}
+
+.vendorlogo {
+    display: block;
+    height: 50px;
+    text-align: center;
+}
+
+article.vendorinfo p {
+    font-size: 0.98rem;
+    color: #eeeeee;
+    text-align: left;
+    line-height: 1.5;
+
+    display: -webkit-box;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+}
+
+ul.vendor_perks_list {
+    padding-left: 0;
+}
+
+ul.vendor_perks_list li {
+    font-size: 0.98rem;
+    color: #eeeeee;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+ul.vendor_perks_list li::before {
+    content: "- ";
+    color: #CEA768;
+}
+
+.smc_label_xs {
+    font-size: 0.6rem;
+    font-weight: 600;
+    color: #666;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.vendor_link_holder {
+    position: absolute;
+    bottom: 20px;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+a.vendorlink {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #CEA768;
+
+    transition: 0.4s ease-in all;
+}
+
+a.vendorlink:hover {
+    text-decoration: none;
+    color: #eab157;
+}
+
+.membership_area {
+    position: relative;
+    min-height: 1050px;
+    height: auto;
+    padding-top: 75px;
+    padding-bottom: 80px;
+    background: url('../img/whitemarble.png') center center no-repeat;
+    background-size: cover;
+}
+
+.priceboxes_holder {
+    padding-top: 60px;
+}
+
+.pricebox {
+    position: relative;
+    width: 100%;
+    height: 630px;
+    padding: 28px 20px 28px 20px;
+    background: #FEFEFE;
+    box-shadow: 0 2px 534px 0 rgba(0,0,0,0.08);
+    border-radius: 8px;
+}
+
+.pricebox_top.basic {background-color: #EDEEEE; color: #4A4D4D;}
+.pricebox_top.advanced {background-color: #EDF7FA; color: #00A3DA;}
+.pricebox_top.pro {background-color: #F2F8EB; color: #84BF41;}
+.pricebox_top.circle {background-color: #FCEFF0; color: #D8232A;}
+
+.pricebox_top {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.pricebox_title_h4 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+span.price_circle {
+    position: absolute;
+    width: 100%;
+    height: 40%;
+    left: 0;
+
+}
+
+span.price_circle.basic {
+    background: url('../img/price_circle_basic.svg') no-repeat;
+    background-size: contain;
+    opacity: 0.4;
+}
+span.price_circle.advanced {
+    background: url('../img/price_circle_advanced.svg') no-repeat;
+    background-size: contain;
+    opacity: 0.4;
+}
+span.price_circle.pro {
+    background: url('../img/price_circle_pro.svg') no-repeat;
+    background-size: contain;
+    opacity: 0.4;
+    height: 80px;
+}
+span.price_circle.circle {
+    background: url('../img/price_circle_circle.png') no-repeat;
+    background-size: contain;
+    opacity: 0.4;
+    height: 80px;
+}
+
+
+.pricebox_main_content_holder {
+    margin-top: 110px;
+}
+
+.price {
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.price.basic {color: #4A4D4D;}
+.price.advanced {color: #00A3DA;}
+.price.pro {color: #84BF41;}
+.price.circle {color: #D8232A;}
+
+ul.pricebox_options {
+    padding-top: 8px;
+    padding-left: 10px;
+}
+
+ul.pricebox_options li {
+    list-style-type: none;
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 0.9rem;
+    color: #666666;
+    text-indent: -8px;
+    padding-left: 8px;
+}
+
+.pricebox_options li i {
+    color: #CEA768;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-right: 8px;
+}
+
+.subsriber_button_holder {
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 20px;
+}
+
+button.membership_subscriber.basic {
+    background: rgba(102,102,102,0.06);
+    border: 1px solid #666666;
+    border-radius: 30px;
+    color: #666666;
+}
+button.membership_subscriber.basic:hover {
+    background: rgba(102,102,102,1);
+    border: 1px solid #666666;
+    color: #ffffff;
+}
+button.membership_subscriber.advanced {
+    background: rgba(0,163,218,0.06);
+    border: 1px solid #00A3DA;
+    border-radius: 30px;
+    color: #00A3DA;
+}
+button.membership_subscriber.advanced:hover {
+    background: rgba(0,163,218,1);
+    border: 1px solid #00A3DA;
+    border-radius: 30px;
+    color: #ffffff;
+}
+button.membership_subscriber.pro {
+    background: rgba(132,191,65,0.06);
+    border: 1px solid #84BF41;
+    border-radius: 30px;
+    color: #84BF41;
+}
+button.membership_subscriber.pro:hover {
+    background: rgba(132,191,65,1);
+    border: 1px solid #84BF41;
+    border-radius: 30px;
+    color: #ffffff;
+}
+button.membership_subscriber.circle {
+    background: rgba(216,35,42,0.06);
+    border: 1px solid #D8232A;
+    border-radius: 30px;
+    color: #D8232A;
+}
+button.membership_subscriber.circle:hover {
+    background: rgba(216,35,42,1);
+    border: 1px solid #D8232A;
+    border-radius: 30px;
+    color: #ffffff;
+}
+
+button.membership_subscriber {
+    font-size: 0.8rem;
+    font-weight: 700;
+    border-radius: 100px;
+    text-transform: uppercase;
+    height: 40px;
+    width: 85%;
+    transition: all 0.4s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
