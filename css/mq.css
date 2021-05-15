@@ -521,7 +521,7 @@
 @media screen and (max-width: 699px){
     .fee_circle {width: 150px; height: 150px;}
     .fee_content_holder {min-height: 170px;}
-    .fee_holder h1 {font-size: 2.2rem; margin-top: 20px;}
+    .fee_holder_h1 {font-size: 2.2rem; margin-top: 20px;}
 }
 
 @media screen and (max-width: 630px){
@@ -538,7 +538,7 @@
 
 @media screen and (max-width: 410px){
     .tuition_box {min-height: 465px;}
-    .topmost_stripe h3 {font-size: 1.2rem; margin-top: 17px;}
+    .topmost_stripe_h3 {font-size: 1.2rem; margin-top: 17px;}
 }
 
 
@@ -598,7 +598,7 @@
 @media screen and (max-width: 1199px){
     span.arrow_one {height: 18px;}
     span.arrow_two {height: 18px;}
-    h4.roadmap_title {font-size: 0.9rem;}
+    .roadmap_title_h4 {font-size: 0.9rem;}
 }
 
 @media screen and (max-width: 991px){
@@ -770,8 +770,8 @@
 }
 
 @media screen and (max-width: 375px){
-    h3.parent_program_title {font-size: 0.66rem;}
-    h6.child_program_title {font-size: 0.8rem;}
+    .parent_program_title_h3 {font-size: 0.66rem;}
+    .child_program_title_h6 {font-size: 0.8rem;}
 
 }
 
@@ -840,7 +840,7 @@
 /* >>>>> SM/XS <<<<< */
 
 @media screen and (max-width: 991px){
-    h4.method_title {font-size: 0.8rem;}
+    .method_title_h4 {font-size: 0.8rem;}
 }
 
 @media screen and (max-width: 767px){

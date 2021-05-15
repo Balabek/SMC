@@ -1611,6 +1611,15 @@ h5.footer_links_title {
     text-align: left;
 }
 
+.footer_links_title_h5 {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #84BF41;
+    text-align: left;
+}
+
 ul.footer_links {
     padding-left: 0;
 }
@@ -1827,13 +1836,13 @@ ul.footer_mini_list li a:hover, ul.footer_mini_list li a:focus {
     border-top-right-radius: 20px;
 }
 
-.topmost_stripe h3 {
+.topmost_stripe_h3 {
     font-family: "SangBleu Kingdom", serif;
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffffff;
     text-align: left;
-    margin-top: 14px;
+    margin-top: 11px;
 }
 
 .sidebar_content_holder {
@@ -1869,7 +1878,7 @@ ul.footer_mini_list li a:hover, ul.footer_mini_list li a:focus {
 
 .sidebar_keyfactor_titles.long_txt_vertical_align {top: -3px;}
 
-.sidebar_keyfactor_titles h5 {
+.sidebar_keyfactor_titles_h5 {
     font-size: 0.9rem;
     font-weight: 600;
     color: #666666;
@@ -1938,7 +1947,7 @@ button.sidebar_apply_btn:hover, button.sidebar_apply_btn:focus {
     padding-top: 0;
 }
 
-.other_programs_list_holder h5 {
+.other_programs_list_holder_h5 {
     font-size: 1rem;
     font-weight: 600;
     text-align: left;
@@ -2098,7 +2107,7 @@ ul.generic_custom_smc_list.green li:before {
     position: absolute;
 }
 
-.fee_titles h3 {
+.fee_titles_h3 {
     font-size: 1.2rem;
     font-weight: 700;
     text-transform: uppercase;
@@ -2107,7 +2116,7 @@ ul.generic_custom_smc_list.green li:before {
     letter-spacing: 2px;
 }
 
-.fee_titles h4 {
+.fee_titles_h4 {
     font-family: "SangBleu Kingdom", serif;
     font-size: 1.2rem;
     font-weight: bold;
@@ -2120,7 +2129,7 @@ ul.generic_custom_smc_list.green li:before {
     align-items: center;
 }
 
-.fee_holder h1 {
+.fee_holder_h1 {
     font-size: 2.1rem;
     font-weight: 700;
     color: #00A3DA;
@@ -2192,13 +2201,13 @@ h4.outline_subtitle.initial {margin-top: 0;}
     border: 1px solid #dbdbdb;
     box-shadow: none !important;
 }
-
-h4.step_title {
+.step_title_h4 {
     font-family: "SangBleu Kingdom", serif;
     font-size: 1.22rem;
     color: #666;
     text-align: left;
     padding-left: 12px;
+    line-height: 2.2;
 }
 
 a.toggle_stripe {
@@ -2573,11 +2582,13 @@ article.program_brief_info p {
     text-overflow: ellipsis;
 }
 
-.program_title_holder h4 {
+.program_title_h4 {
     font-family: "SangBleu Kingdom", serif;
     font-weight: bold;
     font-size: 1.1rem;
     line-height: 1.5;
+    margin-top: 8px;
+    margin-bottom: 8px;
     color: #164A84;
     text-align: left;
     display: -webkit-box;
@@ -2606,6 +2617,12 @@ ul.program_card_list li {
 ul.program_card_list li h5 {
     display: inline-block;
     font-weight: 400;
+}
+
+ul.program_card_list li p {
+    display: inline-block;
+    font-weight: 400;
+    margin-bottom: 17px;
 }
 
 .two_mini_buttons_holder {
@@ -2752,7 +2769,7 @@ img.process_icon {
     align-content: center;
 }
 
-h4.process_title {
+.process_title_h4 {
     font-size: 1.17rem;
     font-weight: 700;
     color: #666666;
@@ -2829,7 +2846,7 @@ h4.process_title {
     position: relative;
 }
 
-h4.roadmap_title {
+.roadmap_title_h4 {
     font-size: 1.17rem;
     font-weight: 700;
     color: #666666;
@@ -2954,7 +2971,7 @@ hr.invisible_margin {
     text-align: center;
 }
 
-h2.stat_number {
+.stat_number_h2 {
     font-family: "SangBleu Kingdom",serif;
     font-weight: bold;
     font-size: 5.1rem;
@@ -2971,7 +2988,7 @@ hr.stat_separator {
     background: linear-gradient(90deg, rgba(74,77,77,0) 0%, rgba(74,77,77,1) 50%, rgba(74,77,77,0) 100%);
 }
 
-h4.stat_info {
+.stat_info_h4 {
     font-size: 0.9rem;
     font-weight: 700;
     color: #999999;
@@ -3269,15 +3286,16 @@ ul.accreditation_list li::before {
     padding-top: 8px;
 }
 
-h4.map_title {
+.map_title_h4 {
     font-family: "SangBleu Kingdom", serif;
     font-weight: bold;
     font-size: 1.3rem;
     color: #164A84;
     text-align: left;
+    margin-bottom: 12px;
 }
 
-h4.map_title i {
+.map_title_h4 i {
     font-size: 1.3rem;
     color: #84BF41 !important;
     margin-right: 6px;
@@ -3392,7 +3410,7 @@ span.cyan_circle_contact {
     vertical-align: middle;
 }
 
-.contact_top h4 {
+.contact_top_h4 {
     font-family: "SangBleu Kingdom", serif;
     font-weight: bold;
     color: #ffffff;
@@ -3635,7 +3653,7 @@ span.application_blue_circle {
     border-radius: 100px;
 }
 
-h3.parent_program_title {
+.parent_program_title_h3 {
     font-size: 0.77rem;
     font-weight: 700;
     color: #00A3DA;
@@ -3644,9 +3662,10 @@ h3.parent_program_title {
     text-align: center;
     display: inline-flex;
     margin-bottom: 6px;
+    margin-top: 16px;
 }
 
-h6.child_program_title {
+.child_program_title_h6 {
     font-size: 0.9rem;
     font-weight: 400;
     color: #164A84;
@@ -4476,6 +4495,13 @@ h4.method_title {
     text-align: center;
 }
 
+.method_title_h4 {
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: #666666;
+    text-align: center;
+}
+
 .holistic_area {
     position: relative;
     min-height: 645px;
@@ -5020,12 +5046,13 @@ img.op_icon {
     text-align: center;
 }
 
-.op_box h3 {
+.op_box_h3 {
     font-family: "SangBleu Kingdom", serif;
     font-weight: bold;
     color: #164A84;
     font-size: 1.1rem;
     text-align: center;
+    margin-top: 36px;
 }
 
 article.op_box_text {
@@ -5360,6 +5387,7 @@ span.greyhalfcircle {
 .xplrbx_six:hover::after {
     filter: saturate(70%) blur(2px);
     transform: scale(1.2);
+    border-radius: 8px;
 }
 
 .xplrbx_seven {
@@ -5842,6 +5870,7 @@ hr.afterfilter_separator {
 
 .product_boxes_pagination_holder {
     padding-top: 55px;
+    padding-bottom: 50px;
     margin: 0 auto;
     display: block;
     text-align: center;
@@ -6160,6 +6189,8 @@ button.membership_subscriber {
     width: 85%;
     transition: all 0.4s ease-in-out;
 }
+
+.light_grey_circle {background: #f5f5f5;}
 
 
 

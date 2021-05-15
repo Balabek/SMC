@@ -1,13 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="The updated (2021) homepage fully responsive.">
-      <change afterPath="$PROJECT_DIR$/starmanagercircle.html" afterDir="false" />
+    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="All the new updates are implemented.">
+      <change afterPath="$PROJECT_DIR$/certificate_details_test.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/agents.html" beforeDir="false" afterPath="$PROJECT_DIR$/agents.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/all_programs.html" beforeDir="false" afterPath="$PROJECT_DIR$/all_programs.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.html" beforeDir="false" afterPath="$PROJECT_DIR$/application.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/certifications.html" beforeDir="false" afterPath="$PROJECT_DIR$/certifications.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/mq.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/mq.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/smc_main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/smc_main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/certifications_bgd.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/certifications_bgd.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deleted_sections.html" beforeDir="false" afterPath="$PROJECT_DIR$/deleted_sections.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/enterprise.html" beforeDir="false" afterPath="$PROJECT_DIR$/enterprise.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/methodology.html" beforeDir="false" afterPath="$PROJECT_DIR$/methodology.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/program_details_bachelor.html" beforeDir="false" afterPath="$PROJECT_DIR$/program_details_bachelor.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +33,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1hXvp8NGQGYkDuWAWj5MSorrLRX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -97,7 +113,7 @@
       <workItem from="1610802136861" duration="51000" />
       <workItem from="1611509973864" duration="298000" />
       <workItem from="1611861581470" duration="14000" />
-      <workItem from="1620719320644" duration="60168000" />
+      <workItem from="1620719320644" duration="74823000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Degree Programs&quot; page fully responsive">
       <created>1597578965498</created>
@@ -218,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620844991348</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="All the new updates are implemented.">
+      <created>1620900682635</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1620900682635</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +261,7 @@
     <MESSAGE value="Minor changes in Footer's HTML and mq.css file to address the newly appeared UI issues." />
     <MESSAGE value="'Certifications' page (2021) fully responsive." />
     <MESSAGE value="The updated (2021) homepage fully responsive." />
-    <option name="LAST_COMMIT_MESSAGE" value="The updated (2021) homepage fully responsive." />
+    <MESSAGE value="All the new updates are implemented." />
+    <option name="LAST_COMMIT_MESSAGE" value="All the new updates are implemented." />
   </component>
 </project>
