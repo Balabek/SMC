@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="All the new updates are implemented." />
+    <list default="true" id="d5e18a67-b74b-4a6a-91fc-c352ff0bcd19" name="Default" comment="All the new updates are implemented.">
+      <change beforePath="$PROJECT_DIR$/img/wordcloud-2.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/wordcloud-2.png" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,7 +100,7 @@
       <workItem from="1610802136861" duration="51000" />
       <workItem from="1611509973864" duration="298000" />
       <workItem from="1611861581470" duration="14000" />
-      <workItem from="1620719320644" duration="75640000" />
+      <workItem from="1620719320644" duration="76247000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Degree Programs&quot; page fully responsive">
       <created>1597578965498</created>
@@ -233,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621102985678</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="All the new updates are implemented.">
+      <created>1621179332529</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621179332529</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
