@@ -904,17 +904,23 @@
 
 @media screen and (max-width: 767px){
     .accreditation_text_section {border-right: none;}
-    .accr_logo {width: 35%; float: left; margin-right: 85px; margin-bottom: 140px;}
+    .accr_logo {width: 100%; float: none; margin-bottom: 50px;}
+    .accr_logo.nchfe {height: 75px;}
+    .accr_logo.mee {height: 75px;}
 
     .accr_box {margin-bottom: 32px;}
 
     .ghostlogo.logo1 {left: 30px; height: 100px;}
     .ghostlogo.logo2 {left: 30px; height: 200px;}
 
+    .accreditation_text_section {margin-bottom: initial;}
+    .accreditation_image_holder {margin-bottom: 125px;}
 }
 
 @media screen and (max-width: 620px){
-    .accr_logo {width: 35%; margin-right: 55px; margin-bottom: 130px;}
+    .accr_logo {margin-bottom: 40px;}
+    .accr_logo.nchfe {height: 65px;}
+    .accr_logo.mee {height: 65px;}
 }
 
 @media screen and (max-width: 470px){
@@ -923,7 +929,7 @@
 }
 
 @media screen and (max-width: 420px){
-    .accr_logo {width: 35%; margin-right: 25px; margin-bottom: 110px;}
+    .accr_logo {margin-bottom: 38px;}
 }
 
 
