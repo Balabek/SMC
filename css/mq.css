@@ -126,6 +126,11 @@
     .h_banner {width: 96%;}
 }
 
+@media screen and (max-width: 390px){
+    .euflag_home {top: 8px; height: 40px;}
+    .banner_logo {height: 86px; right: -55px;}
+}
+
 
 
 
